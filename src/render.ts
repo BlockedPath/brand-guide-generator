@@ -288,7 +288,7 @@ code{font:12px/1.4 ui-monospace,SFMono-Regular,Menlo,monospace;background:var(--
 .cover{padding:64px 0 40px;border-bottom:1px solid var(--line)}
 .cover-grid{display:grid;grid-template-columns:1.1fr .9fr;gap:40px;align-items:center}
 .cover .logo-box{display:inline-flex;padding:18px 22px;border-radius:14px;background:${esc(logoBg)};border:1px solid var(--line);margin-bottom:22px}
-.cover .logo-box img{max-height:44px;max-width:220px}
+.cover .logo-box img{height:40px;width:auto;max-width:220px;object-fit:contain}
 .cover h1{font-size:44px;line-height:1.08;margin:0 0 12px;letter-spacing:-.02em}
 .cover .tl{font-size:20px;color:var(--muted);margin:0 0 18px;max-width:34em}
 .cover .meta{font-size:13px;color:var(--muted)}
@@ -309,7 +309,7 @@ h4{margin:0 0 6px;font-size:15px}
 .logo-tiles{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:14px;margin-bottom:16px}
 .tile-wrap{margin:0}.tile-wrap figcaption{font-size:12px;color:var(--muted);margin-top:6px}
 .tile{height:170px;border-radius:12px;border:1px solid var(--line);display:flex;align-items:center;justify-content:center;padding:24px}
-.tile img{max-width:80%;max-height:70px}
+.tile img{max-width:80%;height:56px;width:auto;object-fit:contain}
 .checker{background:repeating-conic-gradient(#f1f2f4 0 25%,#fff 0 50%) 0 0/16px 16px}
 .invert-light{filter:brightness(0) invert(1)}
 .invert-dark{filter:brightness(0)}
@@ -405,7 +405,23 @@ footer{padding:30px 0 60px;font-size:12px;color:var(--muted)}
 .toast{position:fixed;bottom:20px;left:50%;transform:translateX(-50%);background:#111;color:#fff;padding:8px 14px;border-radius:8px;font-size:13px;opacity:0;transition:opacity .2s;pointer-events:none}
 .toast.on{opacity:1}
 @media (max-width:760px){.wrap{padding:0 16px}.cover-grid,.dodont{grid-template-columns:1fr}.cover h1{font-size:34px}.font{grid-template-columns:80px 1fr}.font .spec{font-size:56px}.scale .sample{max-width:180px}}
-@media print{.top{display:none}section{padding:28px 0;page-break-after:always}.cover{page-break-after:always}}
+/* Motion: progressive enhancement (only when JS runs), disabled for reduced motion and print */
+.cover-grid>*{animation:rise .9s cubic-bezier(.22,1,.36,1) both}.cover-grid>*:nth-child(2){animation-delay:.15s}
+@keyframes rise{from{opacity:0;transform:translateY(16px)}}
+.strip i{transform-origin:left;animation:grow .8s cubic-bezier(.22,1,.36,1) both;animation-delay:calc(var(--i,0)*60ms + .3s)}
+@keyframes grow{from{transform:scaleX(0)}}
+.js main section>*{opacity:0;transform:translateY(18px);transition:opacity .8s cubic-bezier(.22,1,.36,1),transform .8s cubic-bezier(.22,1,.36,1)}
+.js main section>*.in{opacity:1;transform:none}
+.js .track i{transition:left 1.2s cubic-bezier(.22,1,.36,1) .25s}
+.chip,.nchip,.traits article,.vps article,.proof article,.font,.exports a,.tile{transition:transform .35s cubic-bezier(.22,1,.36,1),box-shadow .35s,border-color .3s}
+.chip:hover{transform:translateY(-4px);box-shadow:0 18px 32px -18px rgba(0,0,0,.45)}
+.nchip:hover{transform:translateY(-3px)}
+.traits article:hover,.vps article:hover,.proof article:hover,.font:hover,.tile:hover{transform:translateY(-3px);box-shadow:0 16px 34px -22px rgba(0,0,0,.35)}
+.pill{transition:transform .25s,filter .25s}.pill:hover{transform:translateY(-1px);filter:brightness(1.08)}
+.top a{position:relative;transition:color .2s}.top a::after{content:"";position:absolute;left:0;right:0;bottom:-6px;height:2px;border-radius:2px;background:var(--accent);transform:scaleX(0);transition:transform .3s}
+.top a.active{color:var(--ink)}.top a.active::after{transform:scaleX(1)}
+@media (prefers-reduced-motion:reduce){*,*::before,*::after{animation:none!important;transition:none!important}.js main section>*{opacity:1;transform:none}}
+@media print{.top{display:none}section{padding:28px 0;page-break-after:always}.cover{page-break-after:always}.js main section>*{opacity:1!important;transform:none!important}}
 </style>
 </head>
 <body>
@@ -417,7 +433,7 @@ footer{padding:30px 0 60px;font-size:12px;color:var(--muted)}
     ${m.tagline ? `<p class="tl">${esc(m.tagline.text)}</p>` : ""}
     <p class="meta">Extracted from <a href="${safeUrl(g.company.url)}" target="_blank" rel="noopener">${esc(hostOf(g.company.url))}</a> · ${esc(new Date(g.generatedAt).toUTCString().slice(5, 16))} · ${g.sources.pages.length} pages read · powered by TinyFish</p>
     ${g.company.social.length ? `<p class="meta">${g.company.social.slice(0, 6).map((u) => `<a href="${safeUrl(u)}" target="_blank" rel="noopener">${esc(hostOf(u))}</a>`).join(" · ")}</p>` : ""}
-    ${p ? `<div class="strip">${[p.primary, p.secondary, ...p.accents, ...p.neutrals].filter(Boolean).map((x) => `<i style="background:${esc(x!.hex)}" title="${esc(x!.hex)}"></i>`).join("")}</div>` : ""}
+    ${p ? `<div class="strip">${[p.primary, p.secondary, ...p.accents, ...p.neutrals].filter(Boolean).map((x, i) => `<i style="background:${esc(x!.hex)};--i:${i}" title="${esc(x!.hex)}"></i>`).join("")}</div>` : ""}
   </div>
   ${img.hero ? `<div class="shot"><img src="${safeUrl(img.hero)}" alt="${esc(g.company.name)} homepage"></div>` : ""}
 </div></header>
@@ -435,6 +451,13 @@ ${section("method", "09", "How this was made", methodBody)}
 <footer class="wrap">Generated ${esc(g.generatedAt)} by Brand Guide Generator using TinyFish Search, Fetch and Browser APIs. Brand assets belong to their owners.</footer>
 <div class="toast" id="toast">Copied</div>
 <script>
+(function(){if(!("IntersectionObserver" in window))return;document.documentElement.classList.add("js");
+var tracks=[].slice.call(document.querySelectorAll(".track i"));tracks.forEach(function(t){t.dataset.left=t.style.left;t.style.left="50%"});
+var io=new IntersectionObserver(function(es){es.forEach(function(e){if(!e.isIntersecting)return;e.target.classList.add("in");io.unobserve(e.target);[].forEach.call(e.target.querySelectorAll(".track i"),function(t){t.style.left=t.dataset.left})})},{threshold:.08});
+[].forEach.call(document.querySelectorAll("main section>*"),function(el){io.observe(el)});
+var links={};[].forEach.call(document.querySelectorAll(".top a[href^='#']"),function(a){links[a.getAttribute("href").slice(1)]=a});
+var spy=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){for(var k in links)links[k].classList.remove("active");if(links[e.target.id])links[e.target.id].classList.add("active")}})},{rootMargin:"-45% 0px -50% 0px"});
+[].forEach.call(document.querySelectorAll("main section[id]"),function(s){spy.observe(s)})})();
 document.addEventListener("click",function(e){var b=e.target.closest("[data-copy]");if(!b)return;var v=b.getAttribute("data-copy");(navigator.clipboard?navigator.clipboard.writeText(v):Promise.reject()).catch(function(){}).finally(function(){var t=document.getElementById("toast");t.textContent="Copied "+v;t.classList.add("on");setTimeout(function(){t.classList.remove("on")},1200)})});
 </script>
 </body>

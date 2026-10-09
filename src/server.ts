@@ -3,7 +3,7 @@ import { config } from "./config.ts";
 import { generateGuide, type BrandGuide, type ProgressEvent } from "./guide.ts";
 import { looksLikeUrl, normaliseUrl } from "./resolve.ts";
 import { siteDomain } from "./discover.ts";
-import { GUIDE_FILES, guideDir, isFresh, listGuides, readGuide, slugFor, writeGuide } from "./store.ts";
+import { GUIDE_FILES, guideDir, isFresh, listGuides, readGuide, slugFor, summarise, writeGuide } from "./store.ts";
 import index from "./ui/index.html";
 
 // HTTP API + web UI.
@@ -114,7 +114,7 @@ const server = Bun.serve({
             const fresh = refresh ? null : await cached(q);
             if (fresh) send("progress", { step: "write", status: "done", message: "Loaded a guide generated in the last day (add refresh to regenerate)" });
             const guide = fresh ?? (await run(q, (e) => send("progress", e)));
-            send("done", { name: guide.company.name, domain: guide.company.domain, links: links(guide), warnings: guide.warnings });
+            send("done", { name: guide.company.name, domain: guide.company.domain, links: links(guide), warnings: guide.warnings, summary: summarise(slugFor(guide.company.domain), guide) });
           } catch (err) {
             send("error", { message: err instanceof Error ? err.message : String(err) });
           } finally {

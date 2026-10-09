@@ -4,44 +4,140 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Brand Guide Generator</title>
+<meta name="description" content="Turn any website into a brand guide: logo, colours, typography, tone of voice and messaging, pulled from the live site with TinyFish.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Instrument+Serif:ital@0;1&family=JetBrains+Mono:wght@400;500&display=swap">
 <link rel="stylesheet" href="./app.css">
 </head>
 <body>
-<main class="wrap">
-  <header class="hero">
-    <p class="kicker">Powered by TinyFish Search · Fetch · Browser</p>
-    <h1>Brand guide from any website</h1>
-    <p class="sub">Enter a URL or company name. Get the logo, colour palette, typography, tone of voice and key messaging, pulled from the live site, as a shareable page plus JSON and design tokens.</p>
-    <form id="form" autocomplete="off">
-      <input id="q" name="q" placeholder="stripe.com or “Patagonia”" required aria-label="Website or company name">
-      <button id="go" type="submit">Generate</button>
-    </form>
-    <label class="refresh"><input type="checkbox" id="refresh"> Regenerate even if a recent guide exists</label>
-    <p class="examples">Try: <button data-q="stripe.com">stripe.com</button> <button data-q="linear.app">linear.app</button> <button data-q="Patagonia">Patagonia</button> <button data-q="Duolingo">Duolingo</button></p>
-  </header>
+<div class="backdrop" aria-hidden="true">
+  <span class="blob b1"></span><span class="blob b2"></span><span class="blob b3"></span>
+  <div class="grid"></div>
+  <div class="grain"></div>
+</div>
 
-  <section id="run" hidden>
-    <h2 id="run-title">Working…</h2>
-    <ol id="log"></ol>
-    <div id="result" hidden>
-      <div class="links" id="links"></div>
-      <iframe id="frame" title="Generated brand guide"></iframe>
+<header class="nav">
+  <a class="brand" href="/"><span class="mark" aria-hidden="true"><i></i><i></i><i></i></span>Brand Guide Generator</a>
+  <nav>
+    <a href="#how">How it works</a>
+    <a href="#gallery">Gallery</a>
+    <a href="#api">API</a>
+    <a href="https://github.com/BlockedPath/brand-guide-generator" target="_blank" rel="noopener">GitHub ↗</a>
+  </nav>
+</header>
+
+<main>
+  <section class="hero">
+    <p class="eyebrow reveal-load" style="--d:0"><span class="live"></span>Powered by TinyFish Fetch · Search · Browser</p>
+    <h1 class="reveal-load" style="--d:1">Any website,<br><em>as a brand guide.</em></h1>
+    <p class="sub reveal-load" style="--d:2">Logo, colours, typography, tone of voice and key messaging, pulled from the live site in under a minute. Get it as a shareable page plus JSON and design tokens.</p>
+
+    <form id="form" class="search reveal-load" style="--d:3" autocomplete="off">
+      <div class="field">
+        <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
+        <input id="q" name="q" placeholder="stripe.com or “Patagonia”" required aria-label="Website or company name">
+        <button id="go" type="submit"><span class="label">Generate</span><span class="arrow" aria-hidden="true">→</span></button>
+      </div>
+    </form>
+
+    <div class="below reveal-load" style="--d:4">
+      <div class="chips" role="list">
+        <span class="chips-label">Try</span>
+        <button type="button" data-q="stripe.com">stripe.com</button>
+        <button type="button" data-q="linear.app">linear.app</button>
+        <button type="button" data-q="Patagonia">Patagonia</button>
+        <button type="button" data-q="Duolingo">Duolingo</button>
+        <button type="button" data-q="Airbnb">Airbnb</button>
+      </div>
+      <label class="toggle"><input type="checkbox" id="refresh"><span class="track"><span class="thumb"></span></span>Regenerate even if cached</label>
     </div>
   </section>
 
-  <section>
-    <h2>Recent guides</h2>
-    <div id="gallery" class="gallery"><p class="muted">None yet.</p></div>
+  <div class="marquee reveal-load" style="--d:5" aria-hidden="true"><div class="marquee-track" id="marquee"></div></div>
+
+  <section id="run" class="run" hidden>
+    <div class="run-head">
+      <div>
+        <p class="eyebrow" id="run-status">Generating</p>
+        <h2 id="run-title">Building a brand guide…</h2>
+      </div>
+      <div class="timer"><span id="timer">0.0</span>s</div>
+    </div>
+    <div class="meter"><i id="meter"></i></div>
+    <div class="lanes">
+      <article class="lane" data-lane="search"><header><span class="tag">Search</span><span class="pulse"></span></header><p class="lane-desc">Resolve the site, find brand &amp; about pages</p><ol></ol></article>
+      <article class="lane" data-lane="fetch"><header><span class="tag">Fetch</span><span class="pulse"></span></header><p class="lane-desc">Read pages, metadata and copy</p><ol></ol></article>
+      <article class="lane" data-lane="browser"><header><span class="tag">Browser</span><span class="pulse"></span></header><p class="lane-desc">Render and measure colours, fonts, logo</p><ol></ol></article>
+      <article class="lane" data-lane="build"><header><span class="tag">Build</span><span class="pulse"></span></header><p class="lane-desc">Palette, voice, messaging, exports</p><ol></ol></article>
+    </div>
+
+    <div id="result" class="result" hidden>
+      <div class="result-card">
+        <div class="result-main">
+          <div class="result-logo" id="r-logo"></div>
+          <h3 id="r-name"></h3>
+          <p class="r-tagline" id="r-tagline"></p>
+          <div class="r-swatches" id="r-swatches"></div>
+          <div class="r-meta" id="r-meta"></div>
+        </div>
+        <div class="result-side">
+          <a class="cta" id="r-open" target="_blank" rel="noopener">Open full guide <span aria-hidden="true">↗</span></a>
+          <div class="downloads" id="r-links"></div>
+          <div id="r-warnings"></div>
+        </div>
+      </div>
+      <div class="frame">
+        <div class="frame-bar"><span class="dots"><i></i><i></i><i></i></span><span class="frame-url" id="r-url"></span></div>
+        <iframe id="frame" title="Generated brand guide" loading="lazy"></iframe>
+      </div>
+    </div>
   </section>
 
-  <section class="api">
-    <h2>API</h2>
-    <pre><code>GET /api/guide?q=linear.app          → structured brand guide (JSON)
-GET /api/guide/stream?q=Patagonia    → Server-Sent Events progress, then links
-GET /g/&lt;domain&gt;/tokens.json          → W3C design tokens (Figma Tokens Studio)
-GET /g/&lt;domain&gt;/tokens.css           → CSS custom properties</code></pre>
+  <section id="gallery" class="section">
+    <div class="section-head reveal"><p class="eyebrow">Gallery</p><h2>Recent guides</h2></div>
+    <div id="gallery-grid" class="gallery"><p class="muted">No guides yet. Generate one above.</p></div>
+  </section>
+
+  <section id="how" class="section">
+    <div class="section-head reveal"><p class="eyebrow">How it works</p><h2>Three TinyFish APIs, one guide</h2></div>
+    <div class="how">
+      <article class="how-card reveal" style="--d:0">
+        <span class="how-num">01</span>
+        <h3>Fetch <small>core extraction</small></h3>
+        <p>Reads the homepage and up to 7 brand, about, product and pricing pages as clean Markdown, plus the page head's schema.org data. All messaging, tone of voice, official brand rules, the declared logo and social profiles come from that text.</p>
+      </article>
+      <article class="how-card reveal" style="--d:1">
+        <span class="how-num">02</span>
+        <h3>Search <small>discovery</small></h3>
+        <p>Turns a company name into its official site, then searches the brand's own domain for guidelines, press kits, trademark rules and values pages that homepages rarely link to.</p>
+      </article>
+      <article class="how-card reveal" style="--d:2">
+        <span class="how-num">03</span>
+        <h3>Browser <small>visual tokens</small></h3>
+        <p>Renders the homepage in a remote Chrome and measures what actually paints: computed colours, the fonts Chrome drew, button styles and the header logo. Fetch strips styling, so this is the only way to see it.</p>
+      </article>
+    </div>
+    <div class="outputs reveal">
+      <span>Outputs</span>
+      <code>brand.html</code><code>brand.json</code><code>tokens.json</code><code>tokens.css</code><code>tailwind.preset.js</code><code>brand.md</code>
+    </div>
+  </section>
+
+  <section id="api" class="section">
+    <div class="section-head reveal"><p class="eyebrow">API</p><h2>Use it from anywhere</h2></div>
+    <div class="code reveal">
+      <div class="code-bar"><span class="dots"><i></i><i></i><i></i></span><span>HTTP</span></div>
+<pre><code><span class="k">GET</span> /api/guide?q=linear.app           <span class="c"># structured brand guide (JSON)</span>
+<span class="k">GET</span> /api/guide/stream?q=Patagonia     <span class="c"># Server-Sent Events: live progress, then links</span>
+<span class="k">GET</span> /api/guides                       <span class="c"># everything generated so far</span>
+<span class="k">GET</span> /g/&lt;domain&gt;/tokens.json            <span class="c"># W3C design tokens → Figma Tokens Studio</span>
+<span class="k">GET</span> /g/&lt;domain&gt;/tokens.css             <span class="c"># CSS custom properties</span></code></pre>
+    </div>
   </section>
 </main>
+
+<footer class="foot">Built for the TinyFish Student Bounty · brand assets belong to their owners</footer>
 <script type="module" src="./app.ts"></script>
 </body>
 </html>

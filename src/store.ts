@@ -56,7 +56,41 @@ export async function readGuide(slug: string): Promise<BrandGuide | null> {
   return (await f.exists()) ? ((await f.json()) as BrandGuide) : null;
 }
 
-export async function listGuides(): Promise<{ slug: string; name: string; domain: string; generatedAt: string; primary: string | null; tagline: string | null }[]> {
+export interface GuideSummary {
+  slug: string;
+  name: string;
+  domain: string;
+  generatedAt: string;
+  primary: string | null;
+  palette: string[];
+  mode: "light" | "dark" | null;
+  font: string | null;
+  tagline: string | null;
+  voice: string[];
+  logo: string | null;
+}
+
+// Compact card data for the UI gallery and the post-run result reveal.
+export function summarise(slug: string, g: BrandGuide): GuideSummary {
+  const p = g.colors;
+  const palette = p ? [p.primary, p.secondary, ...p.accents, ...p.neutrals].filter((c): c is NonNullable<typeof c> => !!c).map((c) => c.hex) : [];
+  const logoFile = g.logo.official?.file ?? g.logo.svgFile ?? g.logo.pngFile;
+  return {
+    slug,
+    name: g.company.name,
+    domain: g.company.domain,
+    generatedAt: g.generatedAt,
+    primary: p?.primary.hex ?? null,
+    palette: [...new Set(palette)].slice(0, 7),
+    mode: p?.mode ?? null,
+    font: g.typography?.families.find((f) => f.roles.includes("heading"))?.displayName ?? g.typography?.families[0]?.displayName ?? null,
+    tagline: g.messaging.tagline?.text ?? null,
+    voice: g.voice.traits.slice(0, 3).map((t) => t.name),
+    logo: logoFile ? `/g/${slug}/${logoFile}` : null,
+  };
+}
+
+export async function listGuides(): Promise<GuideSummary[]> {
   let entries: string[] = [];
   try {
     entries = await readdir(config.outDir);
@@ -66,7 +100,7 @@ export async function listGuides(): Promise<{ slug: string; name: string; domain
   const out = [];
   for (const slug of entries) {
     const g = await readGuide(slug).catch(() => null);
-    if (g) out.push({ slug, name: g.company.name, domain: g.company.domain, generatedAt: g.generatedAt, primary: g.colors?.primary.hex ?? null, tagline: g.messaging.tagline?.text ?? null });
+    if (g) out.push(summarise(slug, g));
   }
   return out.sort((a, b) => b.generatedAt.localeCompare(a.generatedAt));
 }
