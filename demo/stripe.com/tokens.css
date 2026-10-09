@@ -1,0 +1,49 @@
+/* Stripe brand tokens — extracted from https://stripe.com on 2026-10-09 */
+:root {
+  --brand-primary: #533afd; /* Vivid Violet */
+  --brand-secondary: #ff6118; /* Vivid Vermilion */
+  --brand-accent-1: #b9b9f9; /* Pale Indigo */
+  --brand-accent-2: #00d66f; /* Vivid Emerald */
+  --brand-accent-3: #7f7dfc; /* Light Indigo */
+  --brand-background: #ffffff; /* White */
+  --brand-surface: #e5edf5; /* Off-White */
+  --brand-text: #061b31; /* Deep Navy */
+  --brand-muted: #64748d; /* Blue */
+  --brand-border: #d6d5d2; /* Light Grey */
+  --brand-neutral-100: #ffffff; /* White */
+  --brand-neutral-200: #e5edf5; /* Off-White */
+  --brand-neutral-300: #64748d; /* Blue */
+  --brand-neutral-400: #50617a; /* Blue */
+  --brand-neutral-500: #3c4f69; /* Dark Blue */
+  --brand-neutral-600: #061b31; /* Deep Navy */
+  --brand-neutral-700: #000000; /* Black */
+  --font-heading: sohne-var, "SF Pro Display", sans-serif;
+  --font-body: sohne-var, "SF Pro Display", sans-serif;
+  --text-h1-size: 3rem;
+  --text-h1-weight: 300;
+  --text-h1-line-height: 1.15;
+  --text-h1-tracking: -0.02em;
+  --text-h2-size: 2rem;
+  --text-h2-weight: 300;
+  --text-h2-line-height: 1.1;
+  --text-h2-tracking: -0.02em;
+  --text-h3-size: 1.625rem;
+  --text-h3-weight: 300;
+  --text-h3-line-height: 1.12;
+  --text-h3-tracking: -0.01em;
+  --text-body-size: 2rem;
+  --text-body-weight: 300;
+  --text-body-line-height: 1.1;
+  --text-body-tracking: -0.02em;
+  --text-list-size: 1rem;
+  --text-list-weight: 400;
+  --text-button-size: 0.875rem;
+  --text-button-weight: 400;
+  --text-button-line-height: 1;
+  --text-nav-size: 0.875rem;
+  --text-nav-weight: 400;
+  --text-nav-line-height: 1;
+  --button-radius: 4px;
+  --button-padding: 11.5px 20px;
+  --button-font-weight: 400;
+}

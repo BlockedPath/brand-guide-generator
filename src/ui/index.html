@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Brand Guide Generator</title>
+<link rel="stylesheet" href="./app.css">
+</head>
+<body>
+<main class="wrap">
+  <header class="hero">
+    <p class="kicker">Powered by TinyFish Search · Fetch · Browser</p>
+    <h1>Brand guide from any website</h1>
+    <p class="sub">Enter a URL or company name. Get the logo, colour palette, typography, tone of voice and key messaging, pulled from the live site, as a shareable page plus JSON and design tokens.</p>
+    <form id="form" autocomplete="off">
+      <input id="q" name="q" placeholder="stripe.com or “Patagonia”" required aria-label="Website or company name">
+      <button id="go" type="submit">Generate</button>
+    </form>
+    <label class="refresh"><input type="checkbox" id="refresh"> Regenerate even if a recent guide exists</label>
+    <p class="examples">Try: <button data-q="stripe.com">stripe.com</button> <button data-q="linear.app">linear.app</button> <button data-q="Patagonia">Patagonia</button> <button data-q="Duolingo">Duolingo</button></p>
+  </header>
+
+  <section id="run" hidden>
+    <h2 id="run-title">Working…</h2>
+    <ol id="log"></ol>
+    <div id="result" hidden>
+      <div class="links" id="links"></div>
+      <iframe id="frame" title="Generated brand guide"></iframe>
+    </div>
+  </section>
+
+  <section>
+    <h2>Recent guides</h2>
+    <div id="gallery" class="gallery"><p class="muted">None yet.</p></div>
+  </section>
+
+  <section class="api">
+    <h2>API</h2>
+    <pre><code>GET /api/guide?q=linear.app          → structured brand guide (JSON)
+GET /api/guide/stream?q=Patagonia    → Server-Sent Events progress, then links
+GET /g/&lt;domain&gt;/tokens.json          → W3C design tokens (Figma Tokens Studio)
+GET /g/&lt;domain&gt;/tokens.css           → CSS custom properties</code></pre>
+  </section>
+</main>
+<script type="module" src="./app.ts"></script>
+</body>
+</html>

@@ -1,0 +1,785 @@
+{
+  "schema": "brand-guide/v1",
+  "generatedAt": "2026-10-09T05:58:29.753Z",
+  "input": "Patagonia",
+  "company": {
+    "name": "Patagonia",
+    "domain": "patagonia.com",
+    "url": "https://www.patagonia.com/home/",
+    "description": "Patagonia is a designer of outdoor clothing and gear for the silent sports: climbing, surfing, skiing and snowboarding, fly fishing, and trail running",
+    "twitter": null,
+    "social": [
+      "https://twitter.com/patagonia",
+      "https://www.facebook.com/PATAGONIA/",
+      "https://www.instagram.com/patagonia/",
+      "https://www.youtube.com/channel/UCl3xZ-f3cQhOHvH6f-7-ssQ",
+      "https://www.linkedin.com/company/patagonia_2/",
+      "https://www.pinterest.com/patagonia/",
+      "https://en.wikipedia.org/wiki/Patagonia"
+    ],
+    "declared": {
+      "siteName": null,
+      "title": "Patagonia Outdoor Clothing & Gear",
+      "description": null,
+      "ogImage": null,
+      "canonical": "https://www.patagonia.com/home/",
+      "organization": {
+        "type": "Organization",
+        "name": "Patagonia",
+        "logo": "https://www.patagonia.com/on/demandware.static/Sites-patagonia-us-Site/-/default/images/vectors/logo.svg",
+        "slogan": null,
+        "description": "Patagonia is a designer of outdoor clothing and gear for the silent sports: climbing, surfing, skiing and snowboarding, fly fishing, and trail running",
+        "foundingDate": null,
+        "sameAs": [
+          "https://twitter.com/patagonia",
+          "https://www.facebook.com/PATAGONIA/",
+          "https://www.instagram.com/patagonia/",
+          "https://www.youtube.com/channel/UCl3xZ-f3cQhOHvH6f-7-ssQ",
+          "https://www.linkedin.com/company/patagonia_2/",
+          "https://www.pinterest.com/patagonia/",
+          "https://en.wikipedia.org/wiki/Patagonia"
+        ]
+      }
+    },
+    "resolvedVia": "search",
+    "searchCandidates": [
+      {
+        "url": "https://www.patagonia.com/home/",
+        "title": "Patagonia Outdoor Clothing & Gear"
+      },
+      {
+        "url": "https://www.patagonia.com/shop/clothing-gear",
+        "title": "Shop All Outdoor Clothing & Gear by Patagonia"
+      },
+      {
+        "url": "https://www.patagonia.com/shop/web-specials",
+        "title": "Outdoor Clothing & Gear on Sale - Patagonia Web Specials"
+      },
+      {
+        "url": "https://www.patagonia.com/shop/womens",
+        "title": "Women's Outdoor Clothing by Patagonia"
+      },
+      {
+        "url": "https://www.patagonia.com/shop/mens",
+        "title": "Men's Outdoor Clothing & Gear by Patagonia"
+      }
+    ]
+  },
+  "logo": {
+    "official": {
+      "url": "https://www.patagonia.com/on/demandware.static/Sites-patagonia-us-Site/-/default/images/vectors/logo.svg",
+      "file": "logo-official.svg",
+      "source": "schema.org Organization logo declared in the page head (read with TinyFish Fetch)"
+    },
+    "primarySource": "schema.org (Fetch)",
+    "kind": "svg",
+    "svgFile": "logo.svg",
+    "pngFile": "logo.png",
+    "sourceUrl": null,
+    "alt": null,
+    "width": 120,
+    "height": 22,
+    "colors": [
+      "#000000"
+    ],
+    "favicon": "https://www.patagonia.com/on/demandware.static/Sites-patagonia-us-Site/-/default/dwe7ee1976/images/favicons/favicon-16x16.png",
+    "appleTouchIcon": "https://www.patagonia.com/on/demandware.static/Sites-patagonia-us-Site/-/default/dw36423347/images/patagonia-touch-icon.png",
+    "ogImage": null,
+    "officialFiles": [
+      "https://images.squarespace-cdn.com/content/v1/535ae1f7e4b0d43c82387e3e/1529358247128-PG34N7EVIU8I8O7N91W9/patagonia_works_logo.png?format=1500w"
+    ]
+  },
+  "colors": {
+    "primary": {
+      "hex": "#000000",
+      "rgb": "rgb(0, 0, 0)",
+      "hsl": "hsl(0, 0%, 0%)",
+      "name": "Black",
+      "role": "primary",
+      "usage": 0.271,
+      "evidence": [
+        "monochrome brand: primary is the logo colour",
+        "fills 2 buttons",
+        "link text (78% of links)",
+        "logo colour",
+        "5% of painted background",
+        "71% of text",
+        "named as a brand/primary token"
+      ],
+      "tokens": [
+        "--bs-primary",
+        "--bs-highlight-color",
+        "--bs-primary-text-emphasis",
+        "--bs-dark"
+      ],
+      "onColor": "#ffffff",
+      "contrast": {
+        "white": 21,
+        "black": 1
+      }
+    },
+    "secondary": null,
+    "accents": [
+      {
+        "hex": "#1B2B79",
+        "rgb": "rgb(27, 43, 121)",
+        "hsl": "hsl(230, 64%, 29%)",
+        "name": "Dark Indigo",
+        "role": "accent",
+        "usage": 0.041,
+        "evidence": [
+          "9% of painted background"
+        ],
+        "tokens": [],
+        "onColor": "#ffffff",
+        "contrast": {
+          "white": 12.59,
+          "black": 1.67
+        }
+      }
+    ],
+    "background": {
+      "hex": "#FFFFFF",
+      "rgb": "rgb(255, 255, 255)",
+      "hsl": "hsl(0, 0%, 100%)",
+      "name": "White",
+      "role": "background",
+      "usage": 0.478,
+      "evidence": [
+        "page background",
+        "fills 4 hero buttons",
+        "link text (22% of links)",
+        "declared theme-color",
+        "86% of painted background",
+        "26% of text"
+      ],
+      "tokens": [
+        "--bs-white",
+        "--bs-light",
+        "--bs-body-bg",
+        "--bs-light-bg-subtle"
+      ],
+      "onColor": "#111111",
+      "contrast": {
+        "white": 1,
+        "black": 21
+      }
+    },
+    "surface": null,
+    "text": {
+      "hex": "#000000",
+      "rgb": "rgb(0, 0, 0)",
+      "hsl": "hsl(0, 0%, 0%)",
+      "name": "Black",
+      "role": "text",
+      "usage": 0.271,
+      "evidence": [
+        "most-used text colour",
+        "fills 2 buttons",
+        "link text (78% of links)",
+        "logo colour",
+        "5% of painted background",
+        "71% of text",
+        "named as a brand/primary token"
+      ],
+      "tokens": [
+        "--bs-primary",
+        "--bs-highlight-color",
+        "--bs-primary-text-emphasis",
+        "--bs-dark"
+      ],
+      "onColor": "#ffffff",
+      "contrast": {
+        "white": 21,
+        "black": 1
+      }
+    },
+    "muted": null,
+    "border": null,
+    "neutrals": [
+      {
+        "hex": "#FFFFFF",
+        "rgb": "rgb(255, 255, 255)",
+        "hsl": "hsl(0, 0%, 100%)",
+        "name": "White",
+        "role": "neutral",
+        "usage": 0.478,
+        "evidence": [
+          "fills 4 hero buttons",
+          "link text (22% of links)",
+          "declared theme-color",
+          "86% of painted background",
+          "26% of text"
+        ],
+        "tokens": [
+          "--bs-white",
+          "--bs-light",
+          "--bs-body-bg",
+          "--bs-light-bg-subtle"
+        ],
+        "onColor": "#111111",
+        "contrast": {
+          "white": 1,
+          "black": 21
+        }
+      },
+      {
+        "hex": "#000000",
+        "rgb": "rgb(0, 0, 0)",
+        "hsl": "hsl(0, 0%, 0%)",
+        "name": "Black",
+        "role": "neutral",
+        "usage": 0.271,
+        "evidence": [
+          "fills 2 buttons",
+          "link text (78% of links)",
+          "logo colour",
+          "5% of painted background",
+          "71% of text",
+          "named as a brand/primary token"
+        ],
+        "tokens": [
+          "--bs-primary",
+          "--bs-highlight-color",
+          "--bs-primary-text-emphasis",
+          "--bs-dark"
+        ],
+        "onColor": "#ffffff",
+        "contrast": {
+          "white": 21,
+          "black": 1
+        }
+      }
+    ],
+    "pairings": [
+      {
+        "foreground": "#000000",
+        "background": "#FFFFFF",
+        "label": "Body text on background",
+        "ratio": 21,
+        "level": "AAA"
+      },
+      {
+        "foreground": "#FFFFFF",
+        "background": "#000000",
+        "label": "Text on primary",
+        "ratio": 21,
+        "level": "AAA"
+      },
+      {
+        "foreground": "#000000",
+        "background": "#FFFFFF",
+        "label": "Primary on background",
+        "ratio": 21,
+        "level": "AAA"
+      }
+    ],
+    "isMonochrome": true,
+    "mode": "light"
+  },
+  "typography": {
+    "families": [
+      {
+        "roles": [
+          "heading",
+          "body"
+        ],
+        "family": "Ridgeway Sans",
+        "displayName": "Ridgeway Sans",
+        "stack": "\"Ridgeway Sans\", system-ui, -apple-system, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, \"Noto Sans\", \"Liberation Sans\", sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+        "weights": [
+          300,
+          500,
+          700
+        ],
+        "source": "Self-hosted",
+        "isCustom": true,
+        "foundry": null,
+        "files": [
+          "https://www.patagonia.com/on/demandware.static/Sites-patagonia-us-Site/-/default/dw393228a8/fonts/RidgewaySans/RidgewaySans.woff2"
+        ],
+        "googleFontsUrl": null,
+        "category": "sans-serif",
+        "substitute": "Inter"
+      }
+    ],
+    "scale": [
+      {
+        "role": "h1",
+        "label": "Heading 1",
+        "sample": "New Arrivals",
+        "family": "Ridgeway Sans",
+        "sizePx": 64,
+        "sizeRem": 4,
+        "weight": 500,
+        "lineHeight": 1.1,
+        "letterSpacingEm": -0.02,
+        "transform": null,
+        "color": "#FFFFFF"
+      },
+      {
+        "role": "h2",
+        "label": "Heading 2",
+        "sample": "Latest Stories View All",
+        "family": "Ridgeway Sans",
+        "sizePx": 32,
+        "sizeRem": 2,
+        "weight": 500,
+        "lineHeight": 1,
+        "letterSpacingEm": -0.02,
+        "transform": null,
+        "color": "#000000"
+      },
+      {
+        "role": "body",
+        "label": "Body",
+        "sample": "Our Winter ’26 New Arrivals are made for the moments you chase—first chair, fres",
+        "family": "Ridgeway Sans",
+        "sizePx": 16,
+        "sizeRem": 1,
+        "weight": 300,
+        "lineHeight": 1.5,
+        "letterSpacingEm": null,
+        "transform": null,
+        "color": "#FFFFFF"
+      },
+      {
+        "role": "list",
+        "label": "List text",
+        "sample": "Featured",
+        "family": "Ridgeway Sans",
+        "sizePx": 14,
+        "sizeRem": 0.875,
+        "weight": 300,
+        "lineHeight": 1.75,
+        "letterSpacingEm": null,
+        "transform": null,
+        "color": "#000000"
+      },
+      {
+        "role": "button",
+        "label": "Button",
+        "sample": "Get Your People to the Polls Free Shipping on Orders Over $99 Earth Is Now Our O",
+        "family": "Ridgeway Sans",
+        "sizePx": 14,
+        "sizeRem": 0.875,
+        "weight": 300,
+        "lineHeight": 1.75,
+        "letterSpacingEm": null,
+        "transform": null,
+        "color": "#FFFFFF"
+      },
+      {
+        "role": "nav",
+        "label": "Navigation",
+        "sample": "Activism",
+        "family": "Ridgeway Sans",
+        "sizePx": 12,
+        "sizeRem": 0.75,
+        "weight": 300,
+        "lineHeight": 1.5,
+        "letterSpacingEm": null,
+        "transform": null,
+        "color": "#FFFFFF"
+      }
+    ],
+    "baseSizePx": 16
+  },
+  "components": {
+    "primaryButton": {
+      "label": "Join Us",
+      "background": "#000000",
+      "color": "#FFFFFF",
+      "borderColor": null,
+      "borderWidth": 0,
+      "radius": "30px",
+      "paddingX": 20,
+      "paddingY": 5,
+      "height": 26,
+      "fontFamily": "Ridgeway Sans",
+      "fontSize": 12,
+      "fontWeight": 500,
+      "textTransform": null,
+      "letterSpacing": null
+    },
+    "secondaryButton": {
+      "label": "Explore",
+      "background": "#FFFFFF",
+      "color": "#000000",
+      "borderColor": null,
+      "borderWidth": 0,
+      "radius": "30px",
+      "paddingX": 28,
+      "paddingY": 9,
+      "height": 39,
+      "fontFamily": "Ridgeway Sans",
+      "fontSize": 16,
+      "fontWeight": 500,
+      "textTransform": null,
+      "letterSpacing": null
+    },
+    "radii": [
+      "30px"
+    ]
+  },
+  "voice": {
+    "summary": "Purpose-driven, company-led and evidence-led — serious, formal, respectful and matter-of-fact in tone.",
+    "dimensions": [
+      {
+        "axis": "Funny ↔ Serious",
+        "left": "Funny",
+        "right": "Serious",
+        "value": 88,
+        "basis": "0% exclamations, 0% questions, 0% with emoji"
+      },
+      {
+        "axis": "Formal ↔ Casual",
+        "left": "Formal",
+        "right": "Casual",
+        "value": 40,
+        "basis": "11% use contractions, reading ease 51, 17% long words"
+      },
+      {
+        "axis": "Respectful ↔ Irreverent",
+        "left": "Respectful",
+        "right": "Irreverent",
+        "value": 10,
+        "basis": "slang/emoji density, title case headlines"
+      },
+      {
+        "axis": "Enthusiastic ↔ Matter-of-fact",
+        "left": "Enthusiastic",
+        "right": "Matter-of-fact",
+        "value": 64,
+        "basis": "0.9 superlatives per 100 words, 17% cite numbers"
+      }
+    ],
+    "traits": [
+      {
+        "name": "Purpose-driven",
+        "description": "Frames the brand around a bigger cause or community.",
+        "strength": 1.73,
+        "evidence": [
+          "11.2M environmental voters skipped the last election.",
+          "Our ideal is to make products that give back to the Earth as much as they take."
+        ]
+      },
+      {
+        "name": "Company-led",
+        "description": "Speaks as \"we\" — 83% of sentences are about the company.",
+        "strength": 1.33,
+        "evidence": [
+          "Our Winter ’26 New Arrivals are made for the moments you chase—first chair, fresh trails and far-flung summits.",
+          "Together, we can change that."
+        ]
+      },
+      {
+        "name": "Evidence-led",
+        "description": "Backs claims with specifics — 17% of sentences cite a number.",
+        "strength": 0.5,
+        "evidence": [
+          "Our Winter ’26 New Arrivals are made for the moments you chase—first chair, fresh trails and far-flung summits.",
+          "11.2M environmental voters skipped the last election."
+        ]
+      }
+    ],
+    "dos": [
+      "Keep headlines to about 3 words (site median).",
+      "Write headlines in Title Case.",
+      "Speak as \"we\" when describing what the company does.",
+      "Back claims with concrete numbers and outcomes.",
+      "Aim for a grade 11 reading level (Flesch 51)."
+    ],
+    "donts": [
+      "Avoid exclamation marks (0 found in 25 lines).",
+      "Avoid technical jargon; keep language plain.",
+      "Don't use emoji in brand copy."
+    ],
+    "metrics": {
+      "sentences": 18,
+      "headlines": 7,
+      "avgSentenceWords": 17.9,
+      "medianHeadlineWords": 2,
+      "readingEase": 51,
+      "gradeLevel": 10.6,
+      "youRate": 0.111,
+      "weRate": 0.833,
+      "contractionRate": 0.111,
+      "exclamationRate": 0,
+      "questionRate": 0,
+      "imperativeHeadlineRate": 0,
+      "headlinePeriodRate": 0.143,
+      "headlineCase": "title",
+      "jargonPer100": 0.3,
+      "superlativePer100": 0.9,
+      "numberRate": 0.167,
+      "emojiRate": 0
+    },
+    "examples": {
+      "headlines": [
+        "Connor Ryan takes a base camp nap after a ski tour on Iconoclast Mountain in Rogers Pass, British Columbia.",
+        "New Arrivals",
+        "Recently Viewed",
+        "Latest Stories",
+        "Our Core Values",
+        "Not bound by convention"
+      ],
+      "sentences": [
+        "Our Winter ’26 New Arrivals are made for the moments you chase—first chair, fresh trails and far-flung summits.",
+        "It’s gear that meets you in the moment and helps keep you there.",
+        "11.2M environmental voters skipped the last election.",
+        "In 2022—on the eve of our 50th anniversary—we updated Patagonia’s core values to reflect the company we want to be as we embark on the next 50 years.",
+        "Build the best product, provide the best service and constantly improve everything we do.",
+        "The best product is useful, versatile, long-lasting, repairable and recyclable."
+      ]
+    }
+  },
+  "messaging": {
+    "tagline": {
+      "text": "Made for the moment. Built for a lifetime.",
+      "source": "https://www.patagonia.com/home/"
+    },
+    "subheadline": null,
+    "positioning": {
+      "text": "Patagonia is a designer of outdoor clothing and gear for the silent sports: climbing, surfing, skiing and snowboarding, fly fishing, and trail running",
+      "source": "https://www.patagonia.com/home/"
+    },
+    "boilerplate": {
+      "text": "Patagonia is a U.S.-based outdoor apparel company with a 50-year history of environmental activism.",
+      "source": "https://www.patagoniaworks.com/press"
+    },
+    "slogans": [
+      {
+        "text": "MADE FOR THE MOMENT. BUILT FOR A LIFETIME.",
+        "source": "https://www.patagonia.com/home/"
+      }
+    ],
+    "valueProps": [],
+    "proofPoints": [],
+    "mission": [
+      {
+        "text": "We believe deeply in the urgent, shared responsibility to protect our natural resources.",
+        "source": "https://www.patagoniaworks.com/press"
+      },
+      {
+        "text": "As a company whose livelihood depends directly on the conservation of, and access to, America's national forests, we believe both Alternatives 2 and 3 will cause real, lasting harm to our business, the gateway communities in which we operate and the customers we serve.",
+        "source": "https://www.patagoniaworks.com/press"
+      },
+      {
+        "text": "We believe it is our responsibility to represent the interests and desires of our community to retain this rule in its entirety.",
+        "source": "https://www.patagoniaworks.com/press"
+      }
+    ],
+    "values": [
+      {
+        "name": "Quality",
+        "description": "Build the best product, provide the best service and constantly improve everything we do.",
+        "source": "https://www.patagonia.com/core-values/"
+      },
+      {
+        "name": "Integrity",
+        "description": "Examine our practices openly and honestly, learn from our mistakes and meet our commitments.",
+        "source": "https://www.patagonia.com/core-values/"
+      },
+      {
+        "name": "Environmentalism",
+        "description": "Protect our home planet.",
+        "source": "https://www.patagonia.com/core-values/"
+      },
+      {
+        "name": "Justice",
+        "description": "Be just, equitable and antiracist as a company and in our community.",
+        "source": "https://www.patagonia.com/core-values/"
+      },
+      {
+        "name": "Not bound by convention",
+        "description": "Do it our way.",
+        "source": "https://www.patagonia.com/core-values/"
+      }
+    ],
+    "ctas": [
+      {
+        "text": "Explore",
+        "count": 1
+      },
+      {
+        "text": "Join Us",
+        "count": 1
+      },
+      {
+        "text": "View All",
+        "count": 1
+      }
+    ],
+    "keyTerms": [
+      {
+        "term": "company",
+        "count": 5
+      },
+      {
+        "term": "core values",
+        "count": 3
+      },
+      {
+        "term": "environmental",
+        "count": 3
+      },
+      {
+        "term": "best",
+        "count": 3
+      },
+      {
+        "term": "work",
+        "count": 3
+      }
+    ],
+    "audiences": [
+      {
+        "phrase": "families",
+        "count": 1
+      },
+      {
+        "phrase": "businesses",
+        "count": 1
+      },
+      {
+        "phrase": "historically marginalized people",
+        "count": 1
+      }
+    ]
+  },
+  "brandRules": {
+    "rules": [],
+    "downloads": [
+      {
+        "url": "https://images.squarespace-cdn.com/content/v1/535ae1f7e4b0d43c82387e3e/1529358247128-PG34N7EVIU8I8O7N91W9/patagonia_works_logo.png?format=1500w",
+        "label": "patagonia works logo",
+        "type": "PNG",
+        "source": "https://www.patagoniaworks.com/press"
+      }
+    ],
+    "statedColors": [],
+    "logoFiles": [
+      "https://images.squarespace-cdn.com/content/v1/535ae1f7e4b0d43c82387e3e/1529358247128-PG34N7EVIU8I8O7N91W9/patagonia_works_logo.png?format=1500w"
+    ],
+    "statedColorMatches": []
+  },
+  "imagery": {
+    "hero": "hero.jpg",
+    "display": "display.png"
+  },
+  "sources": {
+    "pages": [
+      {
+        "url": "https://www.patagonia.com/home/",
+        "kind": "home",
+        "via": "input",
+        "title": "Patagonia Outdoor Clothing & Gear",
+        "chars": 1639
+      },
+      {
+        "url": "https://www.patagoniaworks.com/press",
+        "kind": "brand",
+        "via": "search",
+        "title": "Press — Patagonia Works",
+        "chars": 5230
+      },
+      {
+        "url": "https://www.patagonia.com/core-values/",
+        "kind": "about",
+        "via": "search",
+        "title": "Our Core Values - Patagonia",
+        "chars": 3032
+      },
+      {
+        "url": "https://www.patagonia.com/company-history/",
+        "kind": "about",
+        "via": "search",
+        "title": "Our Company History - Patagonia",
+        "chars": 1331
+      }
+    ],
+    "failed": [],
+    "searches": [
+      {
+        "query": "Patagonia official website",
+        "results": 5
+      },
+      {
+        "query": "Patagonia about mission values",
+        "results": 10
+      },
+      {
+        "query": "Patagonia brand guidelines logo press kit",
+        "results": 9
+      }
+    ],
+    "tinyfish": [
+      {
+        "endpoint": "search",
+        "purpose": "Find the official homepage of the company or brand \"Patagonia\"",
+        "detail": "Patagonia official website",
+        "ms": 209,
+        "ok": true
+      },
+      {
+        "endpoint": "search",
+        "purpose": "Find the company's about, mission and values pages",
+        "detail": "Patagonia about mission values",
+        "ms": 278,
+        "ok": true
+      },
+      {
+        "endpoint": "browser",
+        "purpose": "Open a remote browser to render the live site",
+        "detail": "create session",
+        "ms": 540,
+        "ok": true
+      },
+      {
+        "endpoint": "search",
+        "purpose": "Find the official brand guidelines, logo downloads and press kit",
+        "detail": "Patagonia brand guidelines logo press kit",
+        "ms": 1866,
+        "ok": true
+      },
+      {
+        "endpoint": "fetch",
+        "purpose": "Read the brand's declared identity: Open Graph tags and schema.org Organization data (official logo, name, social profiles)",
+        "detail": "https://www.patagonia.com/ (head metadata)",
+        "ms": 2196,
+        "ok": true
+      },
+      {
+        "endpoint": "fetch",
+        "purpose": "Build a brand guide: extract tagline, positioning, value propositions, proof points, mission, values, tone of voice and official brand rules",
+        "detail": "https://www.patagonia.com/",
+        "ms": 11827,
+        "ok": true
+      },
+      {
+        "endpoint": "fetch",
+        "purpose": "Build a brand guide: extract tagline, positioning, value propositions, proof points, mission, values, tone of voice and official brand rules",
+        "detail": "3 URLs",
+        "ms": 1227,
+        "ok": true
+      },
+      {
+        "endpoint": "browser",
+        "purpose": "Render the live site and measure computed styles",
+        "detail": "533 elements scanned on www.patagonia.com",
+        "ms": 25635,
+        "ok": true
+      }
+    ],
+    "browser": {
+      "elementsScanned": 533,
+      "scannedHeight": 3600,
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      }
+    }
+  },
+  "warnings": []
+}

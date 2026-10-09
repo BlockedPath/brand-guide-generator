@@ -1,0 +1,36 @@
+/* Duolingo brand tokens — extracted from https://www.duolingo.com/ on 2026-10-09 */
+:root {
+  --brand-primary: #58cc02; /* Vivid Lime */
+  --brand-secondary: #1cb0f6; /* Vivid Sky */
+  --brand-accent-1: #042c60; /* Dark Navy */
+  --brand-background: #ffffff; /* White */
+  --brand-text: #777777; /* Grey */
+  --brand-muted: #4b4b4b; /* Charcoal */
+  --brand-border: #d8d8d8; /* Light Grey */
+  --brand-neutral-100: #ffffff; /* White */
+  --brand-neutral-200: #d8d8d8; /* Light Grey */
+  --brand-neutral-300: #afaeaf; /* Grey */
+  --brand-neutral-400: #777777; /* Grey */
+  --brand-neutral-500: #4b4b4b; /* Charcoal */
+  --brand-neutral-600: #3d3d3d; /* Charcoal */
+  --brand-neutral-700: #000000; /* Black */
+  --font-heading: duolingo-sans, sans-serif;
+  --font-body: duolingo-sans, sans-serif;
+  --text-h1-size: 2rem;
+  --text-h1-weight: 700;
+  --text-h2-size: 3rem;
+  --text-h2-weight: 700;
+  --text-body-size: 1.063rem;
+  --text-body-weight: 500;
+  --text-body-line-height: 1.41;
+  --text-button-size: 0.938rem;
+  --text-button-weight: 700;
+  --text-button-line-height: 1.15;
+  --text-button-tracking: 0.05em;
+  --text-nav-size: 0.938rem;
+  --text-nav-weight: 700;
+  --text-nav-tracking: 0.05em;
+  --button-radius: 12px;
+  --button-padding: 0px 16px;
+  --button-font-weight: 700;
+}

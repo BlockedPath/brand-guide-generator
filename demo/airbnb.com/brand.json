@@ -1,0 +1,855 @@
+{
+  "schema": "brand-guide/v1",
+  "generatedAt": "2026-10-09T05:57:29.457Z",
+  "input": "Airbnb",
+  "company": {
+    "name": "Airbnb",
+    "domain": "airbnb.com",
+    "url": "https://www.airbnb.com/",
+    "description": "Get an Airbnb for every kind of trip → 8 million vacation rentals → 2 million Guest Favorites → 220+ countries and regions worldwide",
+    "twitter": "@airbnb",
+    "social": [],
+    "declared": {
+      "siteName": "Airbnb",
+      "title": "Airbnb | Vacation rentals, cabins, beach houses, & more",
+      "description": "Get an Airbnb for every kind of trip → 8 million vacation rentals → 2 million Guest Favorites → 220+ countries and regions worldwide",
+      "ogImage": "https://a0.muscache.com/im/pictures/fe7217ff-0b24-438d-880d-b94722c75bf5.jpg?im_w=1200",
+      "canonical": "https://www.airbnb.com/",
+      "organization": null
+    },
+    "resolvedVia": "search",
+    "searchCandidates": [
+      {
+        "url": "https://www.airbnb.com/",
+        "title": "Airbnb | Vacation rentals, cabins, beach houses, & more"
+      },
+      {
+        "url": "https://www.airbnb.org/",
+        "title": "Airbnb.org"
+      },
+      {
+        "url": "https://www.airbnb.com/help/article/252",
+        "title": "Search for Airbnb listings - Airbnb Help Center"
+      },
+      {
+        "url": "https://www.airbnb.com/united-states/stays",
+        "title": "United States Vacation Rentals - Airbnb"
+      },
+      {
+        "url": "https://www.airbnb.com/help/article/2503",
+        "title": "About Airbnb: What it is and how it works - Airbnb Help Center"
+      }
+    ]
+  },
+  "logo": {
+    "official": null,
+    "primarySource": "site header (Browser)",
+    "kind": "svg",
+    "svgFile": "logo.svg",
+    "pngFile": "logo.png",
+    "sourceUrl": null,
+    "alt": null,
+    "width": 102,
+    "height": 32,
+    "colors": [
+      "#FF385C"
+    ],
+    "favicon": "https://a0.muscache.com/im/pictures/AirbnbPlatformAssets/AirbnbPlatformAssets-Favicons/original/d1fcc0b3-865f-485a-b28b-43ca0bf7c891.png?im_w=240",
+    "appleTouchIcon": "https://a0.muscache.com/airbnb/static/icons/apple-touch-icon-180x180-bcbe0e3960cd084eb8eaf1353cf3c730.png",
+    "ogImage": "https://a0.muscache.com/im/pictures/fe7217ff-0b24-438d-880d-b94722c75bf5.jpg?im_w=1200",
+    "officialFiles": [
+      "https://news-assets.withairbnb.com/wp-content/uploads/sites/21/2026/05/2026-AirbnbOrg-Logo.jpg?quality=75&w=2560",
+      "https://news-assets.withairbnb.com/wp-content/uploads/sites/21/2026/05/2026-AirbnbOrg-Logo.jpg?quality=75&w=192",
+      "https://news-assets.withairbnb.com/wp-content/uploads/sites/21/2026/05/2026-AirbnbOrg-Logo.jpg?quality=75&w=384",
+      "https://news-assets.withairbnb.com/wp-content/uploads/sites/21/2026/05/2026-AirbnbOrg-Logo.jpg?quality=75&w=640",
+      "https://news-assets.withairbnb.com/wp-content/uploads/sites/21/2026/05/2026-AirbnbOrg-Logo.jpg?quality=75&w=828",
+      "https://news-assets.withairbnb.com/wp-content/uploads/sites/21/2026/05/2026-AirbnbOrg-Logo.jpg?quality=75&w=1200"
+    ]
+  },
+  "colors": {
+    "primary": {
+      "hex": "#FF385C",
+      "rgb": "rgb(255, 56, 92)",
+      "hsl": "hsl(349, 100%, 61%)",
+      "name": "Vivid Rose",
+      "role": "primary",
+      "usage": 0.011,
+      "evidence": [
+        "logo colour",
+        "named as a brand/primary token"
+      ],
+      "tokens": [
+        "--palette-logo-brand",
+        "--palette-bg-primary-core",
+        "--palette-rausch"
+      ],
+      "onColor": "#111111",
+      "contrast": {
+        "white": 3.52,
+        "black": 5.97
+      }
+    },
+    "secondary": null,
+    "accents": [],
+    "background": {
+      "hex": "#FFFFFF",
+      "rgb": "rgb(255, 255, 255)",
+      "hsl": "hsl(0, 0%, 100%)",
+      "name": "White",
+      "role": "background",
+      "usage": 0.44,
+      "evidence": [
+        "page background",
+        "declared theme-color",
+        "69% of painted background",
+        "used in gradients",
+        "named as a brand/primary token"
+      ],
+      "tokens": [
+        "--palette-bg-primary",
+        "--palette-loading-on-brand",
+        "--palette-bg-on-banner-action",
+        "--palette-text-primary-inverse"
+      ],
+      "onColor": "#111111",
+      "contrast": {
+        "white": 1,
+        "black": 21
+      }
+    },
+    "surface": {
+      "hex": "#DDDDDD",
+      "rgb": "rgb(221, 221, 221)",
+      "hsl": "hsl(0, 0%, 87%)",
+      "name": "Light Grey",
+      "role": "surface",
+      "usage": 0.131,
+      "evidence": [
+        "27% of painted background",
+        "used in gradients",
+        "named as a brand/primary token"
+      ],
+      "tokens": [
+        "--palette-border-primary-disabled",
+        "--palette-bg-primary-inverse-disabled",
+        "--palette-deco",
+        "--palette-grey400"
+      ],
+      "onColor": "#111111",
+      "contrast": {
+        "white": 1.36,
+        "black": 15.46
+      }
+    },
+    "text": {
+      "hex": "#6C6C6C",
+      "rgb": "rgb(108, 108, 108)",
+      "hsl": "hsl(0, 0%, 42%)",
+      "name": "Charcoal",
+      "role": "text",
+      "usage": 0.194,
+      "evidence": [
+        "most-used text colour",
+        "54% of text"
+      ],
+      "tokens": [
+        "--palette-foggy",
+        "--palette-icon-secondary",
+        "--palette-bg-scrollbar-handle-active"
+      ],
+      "onColor": "#ffffff",
+      "contrast": {
+        "white": 5.25,
+        "black": 4
+      }
+    },
+    "muted": {
+      "hex": "#282828",
+      "rgb": "rgb(40, 40, 40)",
+      "hsl": "hsl(0, 0%, 16%)",
+      "name": "Near Black",
+      "role": "muted",
+      "usage": 0.174,
+      "evidence": [
+        "link text (100% of links)",
+        "heading text",
+        "5% of painted background",
+        "42% of text"
+      ],
+      "tokens": [],
+      "onColor": "#ffffff",
+      "contrast": {
+        "white": 14.74,
+        "black": 1.42
+      }
+    },
+    "border": null,
+    "neutrals": [
+      {
+        "hex": "#FFFFFF",
+        "rgb": "rgb(255, 255, 255)",
+        "hsl": "hsl(0, 0%, 100%)",
+        "name": "White",
+        "role": "neutral",
+        "usage": 0.44,
+        "evidence": [
+          "declared theme-color",
+          "69% of painted background",
+          "used in gradients",
+          "named as a brand/primary token"
+        ],
+        "tokens": [
+          "--palette-bg-primary",
+          "--palette-loading-on-brand",
+          "--palette-bg-on-banner-action",
+          "--palette-text-primary-inverse"
+        ],
+        "onColor": "#111111",
+        "contrast": {
+          "white": 1,
+          "black": 21
+        }
+      },
+      {
+        "hex": "#DDDDDD",
+        "rgb": "rgb(221, 221, 221)",
+        "hsl": "hsl(0, 0%, 87%)",
+        "name": "Light Grey",
+        "role": "neutral",
+        "usage": 0.131,
+        "evidence": [
+          "27% of painted background",
+          "used in gradients",
+          "named as a brand/primary token"
+        ],
+        "tokens": [
+          "--palette-border-primary-disabled",
+          "--palette-bg-primary-inverse-disabled",
+          "--palette-deco",
+          "--palette-grey400"
+        ],
+        "onColor": "#111111",
+        "contrast": {
+          "white": 1.36,
+          "black": 15.46
+        }
+      },
+      {
+        "hex": "#C1C1C1",
+        "rgb": "rgb(193, 193, 193)",
+        "hsl": "hsl(0, 0%, 76%)",
+        "name": "Light Grey",
+        "role": "neutral",
+        "usage": 0.012,
+        "evidence": [
+          "3% of text"
+        ],
+        "tokens": [
+          "--palette-icon-disabled",
+          "--palette-status-neutral",
+          "--palette-text-fill-disabled",
+          "--palette-text-tooltip-secondary"
+        ],
+        "onColor": "#111111",
+        "contrast": {
+          "white": 1.8,
+          "black": 11.67
+        }
+      },
+      {
+        "hex": "#6C6C6C",
+        "rgb": "rgb(108, 108, 108)",
+        "hsl": "hsl(0, 0%, 42%)",
+        "name": "Charcoal",
+        "role": "neutral",
+        "usage": 0.194,
+        "evidence": [
+          "54% of text"
+        ],
+        "tokens": [
+          "--palette-foggy",
+          "--palette-icon-secondary",
+          "--palette-bg-scrollbar-handle-active"
+        ],
+        "onColor": "#ffffff",
+        "contrast": {
+          "white": 5.25,
+          "black": 4
+        }
+      },
+      {
+        "hex": "#282828",
+        "rgb": "rgb(40, 40, 40)",
+        "hsl": "hsl(0, 0%, 16%)",
+        "name": "Near Black",
+        "role": "neutral",
+        "usage": 0.174,
+        "evidence": [
+          "link text (100% of links)",
+          "heading text",
+          "5% of painted background",
+          "42% of text"
+        ],
+        "tokens": [],
+        "onColor": "#ffffff",
+        "contrast": {
+          "white": 14.74,
+          "black": 1.42
+        }
+      },
+      {
+        "hex": "#000000",
+        "rgb": "rgb(0, 0, 0)",
+        "hsl": "hsl(0, 0%, 0%)",
+        "name": "Black",
+        "role": "neutral",
+        "usage": 0.039,
+        "evidence": [
+          "named as a brand/primary token"
+        ],
+        "tokens": [
+          "--palette-icon-primary-hover",
+          "--palette-icon-primary-selected",
+          "--palette-bg-primary-inverse-screens",
+          "--palette-bg-primary-inverse-selected"
+        ],
+        "onColor": "#ffffff",
+        "contrast": {
+          "white": 21,
+          "black": 1
+        }
+      }
+    ],
+    "pairings": [
+      {
+        "foreground": "#6C6C6C",
+        "background": "#FFFFFF",
+        "label": "Body text on background",
+        "ratio": 5.25,
+        "level": "AA"
+      },
+      {
+        "foreground": "#111111",
+        "background": "#FF385C",
+        "label": "Text on primary",
+        "ratio": 5.37,
+        "level": "AA"
+      },
+      {
+        "foreground": "#FF385C",
+        "background": "#FFFFFF",
+        "label": "Primary on background",
+        "ratio": 3.52,
+        "level": "AA Large"
+      },
+      {
+        "foreground": "#282828",
+        "background": "#FFFFFF",
+        "label": "Muted text on background",
+        "ratio": 14.74,
+        "level": "AAA"
+      }
+    ],
+    "isMonochrome": false,
+    "mode": "light"
+  },
+  "typography": {
+    "families": [
+      {
+        "roles": [
+          "heading",
+          "body"
+        ],
+        "family": "Airbnb Cereal VF",
+        "displayName": "Airbnb Cereal",
+        "stack": "\"Airbnb Cereal VF\", Circular, -apple-system, BlinkMacSystemFont, Roboto, \"Helvetica Neue\", sans-serif",
+        "weights": [
+          400,
+          500,
+          600,
+          700
+        ],
+        "source": "Self-hosted",
+        "isCustom": true,
+        "foundry": null,
+        "files": [
+          "https://a0.muscache.com/airbnb/static/airbnb-dls-web/build/fonts/cereal-variable/AirbnbCerealVF_W_Wght.8816d9e5c3b6a860636193e36b6ac4e4.woff2"
+        ],
+        "googleFontsUrl": "https://fonts.googleapis.com/css2?family=Airbnb+Cereal:wght@400;500;600;700&display=swap",
+        "category": "sans-serif",
+        "substitute": null
+      }
+    ],
+    "scale": [
+      {
+        "role": "h1",
+        "label": "Heading 1",
+        "sample": "Airbnb homepage",
+        "family": "Airbnb Cereal VF",
+        "sizePx": 28,
+        "sizeRem": 1.75,
+        "weight": 700,
+        "lineHeight": 1.43,
+        "letterSpacingEm": null,
+        "transform": null,
+        "color": "#222222"
+      },
+      {
+        "role": "h2",
+        "label": "Heading 2",
+        "sample": "Popular homes in Omaha",
+        "family": "Airbnb Cereal VF",
+        "sizePx": 14,
+        "sizeRem": 0.875,
+        "weight": 400,
+        "lineHeight": 1.43,
+        "letterSpacingEm": null,
+        "transform": null,
+        "color": "#222222"
+      },
+      {
+        "role": "button",
+        "label": "Button",
+        "sample": "On Off",
+        "family": "Airbnb Cereal VF",
+        "sizePx": 14,
+        "sizeRem": 0.875,
+        "weight": 400,
+        "lineHeight": null,
+        "letterSpacingEm": null,
+        "transform": null,
+        "color": "#000000"
+      },
+      {
+        "role": "nav",
+        "label": "Navigation",
+        "sample": "All All",
+        "family": "Airbnb Cereal VF",
+        "sizePx": 14,
+        "sizeRem": 0.875,
+        "weight": 400,
+        "lineHeight": 1.43,
+        "letterSpacingEm": null,
+        "transform": null,
+        "color": "#222222"
+      }
+    ],
+    "baseSizePx": 12
+  },
+  "components": {
+    "primaryButton": null,
+    "secondaryButton": null,
+    "radii": []
+  },
+  "voice": {
+    "summary": "Evidence-led, purpose-driven and company-led — serious, formal, respectful and matter-of-fact in tone.",
+    "dimensions": [
+      {
+        "axis": "Funny ↔ Serious",
+        "left": "Funny",
+        "right": "Serious",
+        "value": 80,
+        "basis": "0% exclamations, 0% questions, 2% with emoji"
+      },
+      {
+        "axis": "Formal ↔ Casual",
+        "left": "Formal",
+        "right": "Casual",
+        "value": 33,
+        "basis": "2% use contractions, reading ease 52, 16% long words"
+      },
+      {
+        "axis": "Respectful ↔ Irreverent",
+        "left": "Respectful",
+        "right": "Irreverent",
+        "value": 19,
+        "basis": "slang/emoji density, title case headlines"
+      },
+      {
+        "axis": "Enthusiastic ↔ Matter-of-fact",
+        "left": "Enthusiastic",
+        "right": "Matter-of-fact",
+        "value": 61,
+        "basis": "1.3 superlatives per 100 words, 52% cite numbers"
+      }
+    ],
+    "traits": [
+      {
+        "name": "Evidence-led",
+        "description": "Backs claims with specifics — 52% of sentences cite a number.",
+        "strength": 1.55,
+        "evidence": [
+          "The Airbed & Breakfast website launches in time for the Democratic National Convention and gets 80 bookings.",
+          "Airbnb launches Payments, our bespoke payments platform which in 2019 processed about $70 billion in guest and host transactions in over 40 currencies."
+        ]
+      },
+      {
+        "name": "Purpose-driven",
+        "description": "Frames the brand around a bigger cause or community.",
+        "strength": 0.61,
+        "evidence": [
+          "Every day, hosts offer unique stays, experiences, and services that make it possible for guests to connect with communities in a more authentic way.",
+          "Airbnb launches Experiences, a selection of curated activities that immerse travelers in local communities."
+        ]
+      },
+      {
+        "name": "Company-led",
+        "description": "Speaks as \"we\" — 28% of sentences are about the company.",
+        "strength": 0.44,
+        "evidence": [
+          "Airbnb launches Payments, our bespoke payments platform which in 2019 processed about $70 billion in guest and host transactions in over 40 currencies.",
+          "Airbnb officially changes our name from Airbed & Breakfast to Airbnb and expands beyond rooms to offer apartments, whole homes, and vacation rentals."
+        ]
+      },
+      {
+        "name": "Polished & formal",
+        "description": "Measured, complete sentences at a grade-9.9 reading level.",
+        "strength": 0.43,
+        "evidence": [
+          "Every day, hosts offer unique stays, experiences, and services that make it possible for guests to connect with communities in a more authentic way."
+        ]
+      }
+    ],
+    "dos": [
+      "Keep headlines to about 3 words (site median).",
+      "Write headlines in Title Case.",
+      "Speak as \"we\" when describing what the company does.",
+      "Back claims with concrete numbers and outcomes.",
+      "Aim for a grade 10 reading level (Flesch 52)."
+    ],
+    "donts": [
+      "Don't end headlines with a full stop.",
+      "Avoid contractions; keep sentences complete and polished.",
+      "Avoid exclamation marks (0 found in 101 lines).",
+      "Avoid technical jargon; keep language plain."
+    ],
+    "metrics": {
+      "sentences": 58,
+      "headlines": 43,
+      "avgSentenceWords": 15.8,
+      "medianHeadlineWords": 2,
+      "readingEase": 52,
+      "gradeLevel": 9.9,
+      "youRate": 0.138,
+      "weRate": 0.276,
+      "contractionRate": 0.017,
+      "exclamationRate": 0,
+      "questionRate": 0,
+      "imperativeHeadlineRate": 0,
+      "headlinePeriodRate": 0,
+      "headlineCase": "title",
+      "jargonPer100": 0.3,
+      "superlativePer100": 1.3,
+      "numberRate": 0.517,
+      "emojiRate": 0.017
+    },
+    "examples": {
+      "headlines": [
+        "Fast facts",
+        "Brian Chesky",
+        "Airbnb Co-founder and Chief Executive Officer",
+        "Nathan Blecharczyk",
+        "Airbnb Co-founder and Chief Strategy Officer",
+        "Joe Gebbia"
+      ],
+      "sentences": [
+        "Skip to content Airbnb homepage Turn on AI search.",
+        "Every day, hosts offer unique stays, experiences, and services that make it possible for guests to connect with communities in a more authentic way.",
+        "Brian and Joe host Airbed & Breakfast’s first guests.",
+        "Airbed & Breakfast officially launches during SXSW and receives just two bookings.",
+        "The Airbed & Breakfast website launches in time for the Democratic National Convention and gets 80 bookings.",
+        "Airbnb launches Payments, our bespoke payments platform which in 2019 processed about $70 billion in guest and host transactions in over 40 currencies."
+      ]
+    }
+  },
+  "messaging": {
+    "tagline": {
+      "text": "Vacation rentals, cabins, beach houses, & more",
+      "source": "https://www.airbnb.com/"
+    },
+    "subheadline": null,
+    "positioning": {
+      "text": "Get an Airbnb for every kind of trip → 8 million vacation rentals → 2 million Guest Favorites → 220+ countries and regions worldwide",
+      "source": "https://www.airbnb.com/"
+    },
+    "boilerplate": {
+      "text": "Airbnb was born in 2007 when two hosts welcomed three guests to their San Francisco home, and has since grown to over 5.5 million hosts who have welcomed over 2.5 billion guest arrivals in almost every country across the globe.",
+      "source": "https://news.airbnb.com/about-us"
+    },
+    "slogans": [],
+    "valueProps": [],
+    "proofPoints": [
+      {
+        "stat": "100+",
+        "label": "100+ upgrades to our service and product to make traveling and hosting easier.",
+        "source": "https://news.airbnb.com/about-us"
+      },
+      {
+        "stat": "50+",
+        "label": "Airbnb announces the Airbnb 2021 Winter Release: 50+ upgrades including AirCover for hosts, Translation Engine and more.",
+        "source": "https://news.airbnb.com/about-us"
+      },
+      {
+        "stat": "1 million",
+        "label": "Airbnb celebrates the milestone of reaching 1 million Superhosts in our community.",
+        "source": "https://news.airbnb.com/about-us"
+      },
+      {
+        "stat": "2 million",
+        "label": "Introducing Guest Favorites, a collection of the 2 million most-loved homes on Airbnb.",
+        "source": "https://news.airbnb.com/about-us"
+      }
+    ],
+    "mission": [],
+    "values": [],
+    "ctas": [],
+    "keyTerms": [
+      {
+        "term": "announces",
+        "count": 16
+      },
+      {
+        "term": "march",
+        "count": 12
+      },
+      {
+        "term": "hosts",
+        "count": 11
+      },
+      {
+        "term": "launches",
+        "count": 10
+      },
+      {
+        "term": "guests",
+        "count": 8
+      },
+      {
+        "term": "host",
+        "count": 7
+      },
+      {
+        "term": "co-founder",
+        "count": 6
+      },
+      {
+        "term": "june",
+        "count": 6
+      },
+      {
+        "term": "items showing",
+        "count": 3
+      },
+      {
+        "term": "all-new take",
+        "count": 3
+      },
+      {
+        "term": "million most-loved",
+        "count": 3
+      },
+      {
+        "term": "most-loved homes",
+        "count": 3
+      },
+      {
+        "term": "icons extraordinary",
+        "count": 3
+      },
+      {
+        "term": "extraordinary experiences",
+        "count": 3
+      }
+    ],
+    "audiences": [
+      {
+        "phrase": "property management companies",
+        "count": 1
+      }
+    ]
+  },
+  "brandRules": {
+    "rules": [
+      {
+        "text": "You may NOT use the Airbnb logo, the Bélo logo or any Airbnb trademarks, logos, or icons unless you have formal written permission from the appropriate business or legal teams at Airbnb, Inc.",
+        "topic": "logo",
+        "source": "https://www.airbnb.com/help/article/3233"
+      },
+      {
+        "text": "Do not use the Bélo logo in any form, including separately or in combination with any business name, trademark, social media account name, or generic term.",
+        "topic": "logo",
+        "source": "https://www.airbnb.com/help/article/3233"
+      },
+      {
+        "text": "Do not use “Airbnb,” “Air,” “bnb,” “b&b” or similar terms, in your website name, business name, product name, trademark, domain registration, social media handle, brand asset, etc.",
+        "topic": "naming",
+        "source": "https://www.airbnb.com/help/article/3233"
+      },
+      {
+        "text": "Do not feature Airbnb's distinctive Rausch color prominently in your content, including in your trademarks, logos, designs, or other brand elements.",
+        "topic": "color",
+        "source": "https://www.airbnb.com/help/article/3233"
+      },
+      {
+        "text": "Do not use “Airbnb” in a way that implies partnership, sponsorship, or endorsement, including as part of your business name and/or as a branded term (e.g.",
+        "topic": "naming",
+        "source": "https://www.airbnb.com/help/article/3233"
+      },
+      {
+        "text": "If you have a website, you must include a prominent disclosure on your website as follows, “[name of your company] is an independent third party and is not endorsed by or associated with Airbnb, Inc. or its affiliates”.",
+        "topic": "naming",
+        "source": "https://www.airbnb.com/help/article/3233"
+      }
+    ],
+    "downloads": [],
+    "statedColors": [],
+    "logoFiles": [
+      "https://news-assets.withairbnb.com/wp-content/uploads/sites/21/2026/05/2026-AirbnbOrg-Logo.jpg?quality=75&w=2560",
+      "https://news-assets.withairbnb.com/wp-content/uploads/sites/21/2026/05/2026-AirbnbOrg-Logo.jpg?quality=75&w=192",
+      "https://news-assets.withairbnb.com/wp-content/uploads/sites/21/2026/05/2026-AirbnbOrg-Logo.jpg?quality=75&w=384",
+      "https://news-assets.withairbnb.com/wp-content/uploads/sites/21/2026/05/2026-AirbnbOrg-Logo.jpg?quality=75&w=640",
+      "https://news-assets.withairbnb.com/wp-content/uploads/sites/21/2026/05/2026-AirbnbOrg-Logo.jpg?quality=75&w=828",
+      "https://news-assets.withairbnb.com/wp-content/uploads/sites/21/2026/05/2026-AirbnbOrg-Logo.jpg?quality=75&w=1200"
+    ],
+    "statedColorMatches": []
+  },
+  "imagery": {
+    "hero": "hero.jpg",
+    "display": null
+  },
+  "sources": {
+    "pages": [
+      {
+        "url": "https://www.airbnb.com/",
+        "kind": "home",
+        "via": "input",
+        "title": "Airbnb | Vacation rentals, cabins, beach houses, & more",
+        "chars": 461
+      },
+      {
+        "url": "https://news.airbnb.com/media-assets",
+        "kind": "brand",
+        "via": "search",
+        "title": "Media assets - Airbnb Newsroom",
+        "chars": 297
+      },
+      {
+        "url": "https://www.airbnb.com/help/article/3233",
+        "kind": "brand",
+        "via": "search",
+        "title": "Trademark Guidelines - Airbnb Help Center",
+        "chars": 6668
+      },
+      {
+        "url": "https://news.airbnb.com/about-us",
+        "kind": "about",
+        "via": "search",
+        "title": "About us - Airbnb Newsroom",
+        "chars": 5855
+      },
+      {
+        "url": "https://news.airbnb.com/en-in/category/company",
+        "kind": "about",
+        "via": "search",
+        "title": "Company Archives - Airbnb Newsroom",
+        "chars": 713
+      },
+      {
+        "url": "https://news.airbnb.com/category/product",
+        "kind": "product",
+        "via": "search",
+        "title": "Product Archives - Airbnb Newsroom",
+        "chars": 722
+      }
+    ],
+    "failed": [],
+    "searches": [
+      {
+        "query": "Airbnb official website",
+        "results": 5
+      },
+      {
+        "query": "Airbnb about mission values",
+        "results": 10
+      },
+      {
+        "query": "Airbnb brand guidelines logo press kit",
+        "results": 9
+      }
+    ],
+    "tinyfish": [
+      {
+        "endpoint": "search",
+        "purpose": "Find the official homepage of the company or brand \"Airbnb\"",
+        "detail": "Airbnb official website",
+        "ms": 399,
+        "ok": true
+      },
+      {
+        "endpoint": "search",
+        "purpose": "Find the company's about, mission and values pages",
+        "detail": "Airbnb about mission values",
+        "ms": 220,
+        "ok": true
+      },
+      {
+        "endpoint": "search",
+        "purpose": "Find the official brand guidelines, logo downloads and press kit",
+        "detail": "Airbnb brand guidelines logo press kit",
+        "ms": 287,
+        "ok": true
+      },
+      {
+        "endpoint": "browser",
+        "purpose": "Open a remote browser to render the live site",
+        "detail": "create session",
+        "ms": 566,
+        "ok": true
+      },
+      {
+        "endpoint": "fetch",
+        "purpose": "Read the brand's declared identity: Open Graph tags and schema.org Organization data (official logo, name, social profiles)",
+        "detail": "https://www.airbnb.com/ (head metadata)",
+        "ms": 2998,
+        "ok": true
+      },
+      {
+        "endpoint": "fetch",
+        "purpose": "Build a brand guide: extract tagline, positioning, value propositions, proof points, mission, values, tone of voice and official brand rules",
+        "detail": "https://www.airbnb.com/",
+        "ms": 4573,
+        "ok": true
+      },
+      {
+        "endpoint": "browser",
+        "purpose": "Render the live site and measure computed styles",
+        "detail": "1825 elements scanned on www.airbnb.com",
+        "ms": 15609,
+        "ok": true
+      },
+      {
+        "endpoint": "browser",
+        "purpose": "Render the live site and measure computed styles",
+        "detail": "0 colour swatches read on /media-assets",
+        "ms": 3326,
+        "ok": true
+      },
+      {
+        "endpoint": "fetch",
+        "purpose": "Build a brand guide: extract tagline, positioning, value propositions, proof points, mission, values, tone of voice and official brand rules",
+        "detail": "5 URLs",
+        "ms": 3812,
+        "ok": true
+      }
+    ],
+    "browser": {
+      "elementsScanned": 1825,
+      "scannedHeight": 1545,
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      }
+    }
+  },
+  "warnings": []
+}

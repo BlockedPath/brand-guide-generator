@@ -1,0 +1,1096 @@
+{
+  "schema": "brand-guide/v1",
+  "generatedAt": "2026-10-09T05:57:50.143Z",
+  "input": "stripe.com",
+  "company": {
+    "name": "Stripe",
+    "domain": "stripe.com",
+    "url": "https://stripe.com",
+    "description": "Stripe is a financial services platform that helps all types of businesses accept payments, build flexible billing models, and manage money movement.",
+    "twitter": "@stripe",
+    "social": [],
+    "declared": {
+      "siteName": null,
+      "title": "Stripe | Financial Infrastructure to Grow Your Revenue",
+      "description": "Stripe is a financial services platform that helps all types of businesses accept payments, build flexible billing models, and manage money movement.",
+      "ogImage": "https://b.stripecdn.com/mkt-ssr-statics/assets/_next/static/media/stripe.37119086.jpg",
+      "canonical": "https://stripe.com/",
+      "organization": null
+    },
+    "resolvedVia": "url",
+    "searchCandidates": []
+  },
+  "logo": {
+    "official": null,
+    "primarySource": "site header (Browser)",
+    "kind": "svg",
+    "svgFile": "logo.svg",
+    "pngFile": "logo.png",
+    "sourceUrl": null,
+    "alt": "Stripe logo",
+    "width": 60,
+    "height": 25,
+    "colors": [
+      "#061B31"
+    ],
+    "favicon": "https://images.stripeassets.com/fzn2n1nzq965/4vVgZi0ZMoEzOhkcv7EVwK/8cce6fdcf2733b2ec8e99548908847ed/favicon.png?w=96&h=96",
+    "appleTouchIcon": "https://images.stripeassets.com/fzn2n1nzq965/4vVgZi0ZMoEzOhkcv7EVwK/8cce6fdcf2733b2ec8e99548908847ed/favicon.png?w=180&h=180",
+    "ogImage": "https://b.stripecdn.com/mkt-ssr-statics/assets/_next/static/media/stripe.37119086.jpg",
+    "officialFiles": []
+  },
+  "colors": {
+    "primary": {
+      "hex": "#533AFD",
+      "rgb": "rgb(83, 58, 253)",
+      "hsl": "hsl(248, 98%, 61%)",
+      "name": "Vivid Violet",
+      "role": "primary",
+      "usage": 0.006,
+      "evidence": [
+        "fills 2 hero buttons",
+        "link text (47% of links)",
+        "used in gradients",
+        "named as a brand/primary token"
+      ],
+      "tokens": [
+        "--hds-color-util-brand-600",
+        "--hds-color-core-brand-600",
+        "--hds-color-accent-charm-bg",
+        "--hds-color-input-bg-accent"
+      ],
+      "onColor": "#ffffff",
+      "contrast": {
+        "white": 6.19,
+        "black": 3.39
+      }
+    },
+    "secondary": {
+      "hex": "#FF6118",
+      "rgb": "rgb(255, 97, 24)",
+      "hsl": "hsl(19, 100%, 55%)",
+      "name": "Vivid Vermilion",
+      "role": "secondary",
+      "usage": 0.008,
+      "evidence": [
+        "named as a brand/primary token"
+      ],
+      "tokens": [
+        "--hds-color-util-accent-orange-350",
+        "--hds-color-accentColorMode-orange-icon-solid",
+        "--hds-color-accentColorMode-orange-icon-solidAlt"
+      ],
+      "onColor": "#111111",
+      "contrast": {
+        "white": 3.01,
+        "black": 6.98
+      }
+    },
+    "accents": [
+      {
+        "hex": "#B9B9F9",
+        "rgb": "rgb(185, 185, 249)",
+        "hsl": "hsl(240, 84%, 85%)",
+        "name": "Pale Indigo",
+        "role": "accent",
+        "usage": 0.001,
+        "evidence": [
+          "outlines 1 hero button",
+          "named as a brand/primary token"
+        ],
+        "tokens": [
+          "--hds-color-util-brand-200",
+          "--hds-color-action-bg-subduedHover",
+          "--hds-color-util-action-bg-subdued",
+          "--hds-color-util-action-icon-subdued"
+        ],
+        "onColor": "#111111",
+        "contrast": {
+          "white": 1.85,
+          "black": 11.37
+        }
+      },
+      {
+        "hex": "#00D66F",
+        "rgb": "rgb(0, 214, 111)",
+        "hsl": "hsl(151, 100%, 42%)",
+        "name": "Vivid Emerald",
+        "role": "accent",
+        "usage": 0.002,
+        "evidence": [
+          "fills 1 button"
+        ],
+        "tokens": [],
+        "onColor": "#111111",
+        "contrast": {
+          "white": 1.94,
+          "black": 10.85
+        }
+      },
+      {
+        "hex": "#7F7DFC",
+        "rgb": "rgb(127, 125, 252)",
+        "hsl": "hsl(241, 95%, 74%)",
+        "name": "Light Indigo",
+        "role": "accent",
+        "usage": 0.014,
+        "evidence": [
+          "used in gradients",
+          "named as a brand/primary token"
+        ],
+        "tokens": [
+          "--hds-color-core-brand-400"
+        ],
+        "onColor": "#111111",
+        "contrast": {
+          "white": 3.36,
+          "black": 6.24
+        }
+      }
+    ],
+    "background": {
+      "hex": "#FFFFFF",
+      "rgb": "rgb(255, 255, 255)",
+      "hsl": "hsl(0, 0%, 100%)",
+      "name": "White",
+      "role": "background",
+      "usage": 0.357,
+      "evidence": [
+        "page background",
+        "link text (41% of links)",
+        "heading text",
+        "68% of painted background",
+        "7% of text",
+        "used in gradients",
+        "named as a brand/primary token"
+      ],
+      "tokens": [
+        "--hds-color-action-text-onSolid",
+        "--hds-color-button-primary-text",
+        "--hds-color-button-primary-icon",
+        "--hds-color-action-bg-translucent"
+      ],
+      "onColor": "#111111",
+      "contrast": {
+        "white": 1,
+        "black": 21
+      }
+    },
+    "surface": {
+      "hex": "#E5EDF5",
+      "rgb": "rgb(229, 237, 245)",
+      "hsl": "hsl(210, 44%, 93%)",
+      "name": "Off-White",
+      "role": "surface",
+      "usage": 0.197,
+      "evidence": [
+        "30% of painted background",
+        "used in gradients"
+      ],
+      "tokens": [
+        "--hds-color-util-neutral-50",
+        "--hds-canary-ui-mini-stroke",
+        "--hds-color-core-neutral-50",
+        "--hds-color-core-neutralDark-50"
+      ],
+      "onColor": "#111111",
+      "contrast": {
+        "white": 1.18,
+        "black": 17.76
+      }
+    },
+    "text": {
+      "hex": "#061B31",
+      "rgb": "rgb(6, 27, 49)",
+      "hsl": "hsl(211, 78%, 11%)",
+      "name": "Deep Navy",
+      "role": "text",
+      "usage": 0.143,
+      "evidence": [
+        "most-used text colour",
+        "link text (12% of links)",
+        "heading text",
+        "logo colour",
+        "37% of text"
+      ],
+      "tokens": [
+        "--hds-color-heading-solid",
+        "--hds-color-util-text-solid",
+        "--hds-color-util-neutral-990"
+      ],
+      "onColor": "#ffffff",
+      "contrast": {
+        "white": 17.37,
+        "black": 1.21
+      }
+    },
+    "muted": {
+      "hex": "#64748D",
+      "rgb": "rgb(100, 116, 141)",
+      "hsl": "hsl(217, 17%, 47%)",
+      "name": "Blue",
+      "role": "muted",
+      "usage": 0.042,
+      "evidence": [
+        "12% of text"
+      ],
+      "tokens": [
+        "--hds-color-heading-subdued"
+      ],
+      "onColor": "#ffffff",
+      "contrast": {
+        "white": 4.75,
+        "black": 4.42
+      }
+    },
+    "border": {
+      "hex": "#D6D5D2",
+      "rgb": "rgb(214, 213, 210)",
+      "hsl": "hsl(45, 5%, 83%)",
+      "name": "Light Grey",
+      "role": "border",
+      "usage": 0.001,
+      "evidence": [],
+      "tokens": [],
+      "onColor": "#111111",
+      "contrast": {
+        "white": 1.47,
+        "black": 14.31
+      }
+    },
+    "neutrals": [
+      {
+        "hex": "#FFFFFF",
+        "rgb": "rgb(255, 255, 255)",
+        "hsl": "hsl(0, 0%, 100%)",
+        "name": "White",
+        "role": "neutral",
+        "usage": 0.357,
+        "evidence": [
+          "link text (41% of links)",
+          "heading text",
+          "68% of painted background",
+          "7% of text",
+          "used in gradients",
+          "named as a brand/primary token"
+        ],
+        "tokens": [
+          "--hds-color-action-text-onSolid",
+          "--hds-color-button-primary-text",
+          "--hds-color-button-primary-icon",
+          "--hds-color-action-bg-translucent"
+        ],
+        "onColor": "#111111",
+        "contrast": {
+          "white": 1,
+          "black": 21
+        }
+      },
+      {
+        "hex": "#E5EDF5",
+        "rgb": "rgb(229, 237, 245)",
+        "hsl": "hsl(210, 44%, 93%)",
+        "name": "Off-White",
+        "role": "neutral",
+        "usage": 0.197,
+        "evidence": [
+          "30% of painted background",
+          "used in gradients"
+        ],
+        "tokens": [
+          "--hds-color-util-neutral-50",
+          "--hds-canary-ui-mini-stroke",
+          "--hds-color-core-neutral-50",
+          "--hds-color-core-neutralDark-50"
+        ],
+        "onColor": "#111111",
+        "contrast": {
+          "white": 1.18,
+          "black": 17.76
+        }
+      },
+      {
+        "hex": "#64748D",
+        "rgb": "rgb(100, 116, 141)",
+        "hsl": "hsl(217, 17%, 47%)",
+        "name": "Blue",
+        "role": "neutral",
+        "usage": 0.042,
+        "evidence": [
+          "12% of text"
+        ],
+        "tokens": [
+          "--hds-color-heading-subdued"
+        ],
+        "onColor": "#ffffff",
+        "contrast": {
+          "white": 4.75,
+          "black": 4.42
+        }
+      },
+      {
+        "hex": "#50617A",
+        "rgb": "rgb(80, 97, 122)",
+        "hsl": "hsl(216, 21%, 40%)",
+        "name": "Blue",
+        "role": "neutral",
+        "usage": 0.036,
+        "evidence": [
+          "10% of text",
+          "named as a brand/primary token"
+        ],
+        "tokens": [
+          "--hds-color-action-icon-navigation-soft",
+          "--hds-color-util-text-soft",
+          "--hds-color-core-neutral-600"
+        ],
+        "onColor": "#ffffff",
+        "contrast": {
+          "white": 6.3,
+          "black": 3.33
+        }
+      },
+      {
+        "hex": "#3C4F69",
+        "rgb": "rgb(60, 79, 105)",
+        "hsl": "hsl(215, 27%, 32%)",
+        "name": "Dark Blue",
+        "role": "neutral",
+        "usage": 0.009,
+        "evidence": [
+          "3% of text"
+        ],
+        "tokens": [
+          "--hds-color-util-neutral-700",
+          "--hds-color-core-neutral-700"
+        ],
+        "onColor": "#ffffff",
+        "contrast": {
+          "white": 8.35,
+          "black": 2.51
+        }
+      },
+      {
+        "hex": "#061B31",
+        "rgb": "rgb(6, 27, 49)",
+        "hsl": "hsl(211, 78%, 11%)",
+        "name": "Deep Navy",
+        "role": "neutral",
+        "usage": 0.143,
+        "evidence": [
+          "link text (12% of links)",
+          "heading text",
+          "logo colour",
+          "37% of text"
+        ],
+        "tokens": [
+          "--hds-color-heading-solid",
+          "--hds-color-util-text-solid",
+          "--hds-color-util-neutral-990"
+        ],
+        "onColor": "#ffffff",
+        "contrast": {
+          "white": 17.37,
+          "black": 1.21
+        }
+      },
+      {
+        "hex": "#000000",
+        "rgb": "rgb(0, 0, 0)",
+        "hsl": "hsl(0, 0%, 0%)",
+        "name": "Black",
+        "role": "neutral",
+        "usage": 0.02,
+        "evidence": [
+          "2% of text"
+        ],
+        "tokens": [],
+        "onColor": "#ffffff",
+        "contrast": {
+          "white": 21,
+          "black": 1
+        }
+      }
+    ],
+    "pairings": [
+      {
+        "foreground": "#061B31",
+        "background": "#FFFFFF",
+        "label": "Body text on background",
+        "ratio": 17.37,
+        "level": "AAA"
+      },
+      {
+        "foreground": "#FFFFFF",
+        "background": "#533AFD",
+        "label": "Button label on primary",
+        "ratio": 6.19,
+        "level": "AA"
+      },
+      {
+        "foreground": "#533AFD",
+        "background": "#FFFFFF",
+        "label": "Primary on background",
+        "ratio": 6.19,
+        "level": "AA"
+      },
+      {
+        "foreground": "#64748D",
+        "background": "#FFFFFF",
+        "label": "Muted text on background",
+        "ratio": 4.75,
+        "level": "AA"
+      }
+    ],
+    "isMonochrome": false,
+    "mode": "light"
+  },
+  "typography": {
+    "families": [
+      {
+        "roles": [
+          "heading",
+          "body"
+        ],
+        "family": "sohne-var",
+        "displayName": "Sohne",
+        "stack": "sohne-var, \"SF Pro Display\", sans-serif",
+        "weights": [
+          300,
+          400
+        ],
+        "source": "Self-hosted",
+        "isCustom": true,
+        "foundry": "Klim Type Foundry",
+        "files": [
+          "https://b.stripecdn.com/mkt-ssr-statics/assets/_next/static/media/Sohne.cb178166.woff2"
+        ],
+        "googleFontsUrl": null,
+        "category": "sans-serif",
+        "substitute": "Inter"
+      }
+    ],
+    "scale": [
+      {
+        "role": "h1",
+        "label": "Heading 1",
+        "sample": "Financial infrastructure to grow your revenue. Accept payments, handle business ",
+        "family": "sohne-var",
+        "sizePx": 48,
+        "sizeRem": 3,
+        "weight": 300,
+        "lineHeight": 1.15,
+        "letterSpacingEm": -0.02,
+        "transform": null,
+        "color": "#81B81A"
+      },
+      {
+        "role": "h2",
+        "label": "Heading 2",
+        "sample": "Flexible solutions for every business model.",
+        "family": "sohne-var",
+        "sizePx": 32,
+        "sizeRem": 2,
+        "weight": 300,
+        "lineHeight": 1.1,
+        "letterSpacingEm": -0.02,
+        "transform": null,
+        "color": "#061B31"
+      },
+      {
+        "role": "h3",
+        "label": "Heading 3",
+        "sample": "Accept and optimize payments globally—online and in person",
+        "family": "sohne-var",
+        "sizePx": 26,
+        "sizeRem": 1.625,
+        "weight": 300,
+        "lineHeight": 1.12,
+        "letterSpacingEm": -0.01,
+        "transform": null,
+        "color": "#061B31"
+      },
+      {
+        "role": "body",
+        "label": "Body",
+        "sample": "Grow your business with a comprehensive set of payments and financial tools⁠—⁠de",
+        "family": "sohne-var",
+        "sizePx": 32,
+        "sizeRem": 2,
+        "weight": 300,
+        "lineHeight": 1.1,
+        "letterSpacingEm": -0.02,
+        "transform": null,
+        "color": "#64748D"
+      },
+      {
+        "role": "list",
+        "label": "List text",
+        "sample": "Products",
+        "family": "sohne-var",
+        "sizePx": 16,
+        "sizeRem": 1,
+        "weight": 400,
+        "lineHeight": null,
+        "letterSpacingEm": null,
+        "transform": null,
+        "color": "#000000"
+      },
+      {
+        "role": "button",
+        "label": "Button",
+        "sample": "Products",
+        "family": "sohne-var",
+        "sizePx": 14,
+        "sizeRem": 0.875,
+        "weight": 400,
+        "lineHeight": 1,
+        "letterSpacingEm": null,
+        "transform": null,
+        "color": "#061B31"
+      },
+      {
+        "role": "nav",
+        "label": "Navigation",
+        "sample": "Pricing",
+        "family": "sohne-var",
+        "sizePx": 14,
+        "sizeRem": 0.875,
+        "weight": 400,
+        "lineHeight": 1,
+        "letterSpacingEm": null,
+        "transform": null,
+        "color": "#061B31"
+      }
+    ],
+    "baseSizePx": 14
+  },
+  "components": {
+    "primaryButton": {
+      "label": "Contact sales",
+      "background": "#533AFD",
+      "color": "#FFFFFF",
+      "borderColor": null,
+      "borderWidth": 0,
+      "radius": "4px",
+      "paddingX": 20,
+      "paddingY": 11.5,
+      "height": 40,
+      "fontFamily": "sohne-var",
+      "fontSize": 14,
+      "fontWeight": 400,
+      "textTransform": null,
+      "letterSpacing": null
+    },
+    "secondaryButton": {
+      "label": "Sign up with Google",
+      "background": null,
+      "color": "#533AFD",
+      "borderColor": "#B9B9F9",
+      "borderWidth": 1,
+      "radius": "4px",
+      "paddingX": 24,
+      "paddingY": 14.5,
+      "height": 48,
+      "fontFamily": "sohne-var",
+      "fontSize": 16,
+      "fontWeight": 400,
+      "textTransform": null,
+      "letterSpacing": null
+    },
+    "radii": [
+      "4px",
+      "6px"
+    ]
+  },
+  "voice": {
+    "summary": "Action-oriented, confident & understated and technical — serious, formal, respectful and matter-of-fact in tone.",
+    "dimensions": [
+      {
+        "axis": "Funny ↔ Serious",
+        "left": "Funny",
+        "right": "Serious",
+        "value": 85,
+        "basis": "0% exclamations, 4% questions, 0% with emoji"
+      },
+      {
+        "axis": "Formal ↔ Casual",
+        "left": "Formal",
+        "right": "Casual",
+        "value": 33,
+        "basis": "8% use contractions, reading ease 48, 19% long words"
+      },
+      {
+        "axis": "Respectful ↔ Irreverent",
+        "left": "Respectful",
+        "right": "Irreverent",
+        "value": 10,
+        "basis": "slang/emoji density, sentence case headlines"
+      },
+      {
+        "axis": "Enthusiastic ↔ Matter-of-fact",
+        "left": "Enthusiastic",
+        "right": "Matter-of-fact",
+        "value": 73,
+        "basis": "0.5 superlatives per 100 words, 11% cite numbers"
+      }
+    ],
+    "traits": [
+      {
+        "name": "Action-oriented",
+        "description": "37% of headlines open with a verb.",
+        "strength": 0.75,
+        "evidence": [
+          "Get to market faster.",
+          "Grow new lines of revenue."
+        ]
+      },
+      {
+        "name": "Confident & understated",
+        "description": "Makes claims plainly: no exclamation marks, few superlatives.",
+        "strength": 0.6,
+        "evidence": [
+          "Fast, if you seek it out.",
+          "You can also add your own evidence."
+        ]
+      },
+      {
+        "name": "Technical",
+        "description": "Comfortable with specialist vocabulary (2.6 technical terms per 100 words).",
+        "strength": 0.52,
+        "evidence": [
+          "Run your business on a reliable platform that adapts to your needs.",
+          "Get tailored guidance from Stripe on implementation, complex integrations, or major migrations."
+        ]
+      },
+      {
+        "name": "Polished & formal",
+        "description": "Measured, complete sentences at a grade-9.9 reading level.",
+        "strength": 0.43,
+        "evidence": [
+          "Grow your business with a comprehensive set of payments and financial tools—designed to work individually or together."
+        ]
+      },
+      {
+        "name": "Concise",
+        "description": "Short sentences averaging 13.7 words.",
+        "strength": 0.29,
+        "evidence": [
+          "Fast, if you seek it out.",
+          "You can also add your own evidence."
+        ]
+      }
+    ],
+    "dos": [
+      "Keep headlines to about 5 words (site median).",
+      "Write headlines in sentence case.",
+      "End headlines with a full stop — 43% of headlines do.",
+      "Lead headlines with a strong verb (Build, Get, Start…).",
+      "Speak as \"we\" when describing what the company does.",
+      "Use precise technical terms; the audience expects them.",
+      "Aim for a grade 10 reading level (Flesch 48)."
+    ],
+    "donts": [
+      "Avoid exclamation marks (0 found in 307 lines).",
+      "Don't oversell — superlatives (best, amazing) are rare in this voice.",
+      "Don't use emoji in brand copy."
+    ],
+    "metrics": {
+      "sentences": 256,
+      "headlines": 51,
+      "avgSentenceWords": 13.7,
+      "medianHeadlineWords": 5,
+      "readingEase": 48,
+      "gradeLevel": 9.9,
+      "youRate": 0.164,
+      "weRate": 0.184,
+      "contractionRate": 0.078,
+      "exclamationRate": 0,
+      "questionRate": 0.039,
+      "imperativeHeadlineRate": 0.373,
+      "headlinePeriodRate": 0.431,
+      "headlineCase": "sentence",
+      "jargonPer100": 2.6,
+      "superlativePer100": 0.5,
+      "numberRate": 0.109,
+      "emojiRate": 0
+    },
+    "examples": {
+      "headlines": [
+        "Financial infrastructure to grow your revenue. Accept payments, handle business banking, and implement custom revenue models—from your first transaction to your billionth.",
+        "Flexible solutions for every business model.",
+        "The backbone of global commerce",
+        "Powering businesses of all sizes.",
+        "Professional services.",
+        "Stripe-certified experts."
+      ],
+      "sentences": [
+        "Grow your business with a comprehensive set of payments and financial tools—designed to work individually or together.",
+        "Grow your business with the most comprehensive set of payments and financial tools.",
+        "Run your business on a reliable platform that adapts to your needs.",
+        "Get tailored guidance from Stripe on implementation, complex integrations, or major migrations.",
+        "Work with a Stripe consulting partner that can integrate and deploy Stripe solutions on your behalf.",
+        "Receive ongoing assistance and day-to-day support for technical questions with tiered plans based on your needs."
+      ]
+    }
+  },
+  "messaging": {
+    "tagline": {
+      "text": "Financial infrastructure to grow your revenue.",
+      "source": "https://stripe.com"
+    },
+    "subheadline": {
+      "text": "Accept payments, handle business banking, and implement custom revenue models—from your first transaction to your billionth.",
+      "source": "https://stripe.com"
+    },
+    "positioning": {
+      "text": "Stripe is a financial services platform that helps all types of businesses accept payments, build flexible billing models, and manage money movement.",
+      "source": "https://stripe.com"
+    },
+    "boilerplate": {
+      "text": "Stripe is a technology company that builds economic infrastructure for the internet.",
+      "source": "https://stripe.com/newsroom/information"
+    },
+    "slogans": [],
+    "valueProps": [
+      {
+        "headline": "Flexible solutions for every business model.",
+        "support": "Grow your business with a comprehensive set of payments and financial tools—designed to work individually or together.",
+        "source": "https://stripe.com"
+      },
+      {
+        "headline": "The backbone of global commerce",
+        "support": null,
+        "source": "https://stripe.com"
+      },
+      {
+        "headline": "Powering businesses of all sizes.",
+        "support": "Run your business on a reliable platform that adapts to your needs.",
+        "source": "https://stripe.com"
+      },
+      {
+        "headline": "Professional services.",
+        "support": "Get tailored guidance from Stripe on implementation, complex integrations, or major migrations.",
+        "source": "https://stripe.com"
+      },
+      {
+        "headline": "Stripe-certified experts.",
+        "support": "Work with a Stripe consulting partner that can integrate and deploy Stripe solutions on your behalf.",
+        "source": "https://stripe.com"
+      },
+      {
+        "headline": "Support plans.",
+        "support": "Receive ongoing assistance and day-to-day support for technical questions with tiered plans based on your needs.",
+        "source": "https://stripe.com"
+      },
+      {
+        "headline": "Get to market faster.",
+        "support": "Launch and scale payments products with lower operational overhead using embedded components and no-code tools.",
+        "source": "https://stripe.com"
+      },
+      {
+        "headline": "Grow new lines of revenue.",
+        "support": "Monetize platform transactions—including payments, card interchange, and financing fees.",
+        "source": "https://stripe.com"
+      }
+    ],
+    "proofPoints": [
+      {
+        "stat": "135+",
+        "label": "currencies and payment methods supported",
+        "source": "https://stripe.com"
+      },
+      {
+        "stat": "$1.9T",
+        "label": "in payments volume processed in 2025",
+        "source": "https://stripe.com"
+      },
+      {
+        "stat": "99.999%",
+        "label": "historical uptime for Stripe services",
+        "source": "https://stripe.com"
+      },
+      {
+        "stat": "200M+",
+        "label": "active subscriptions managed on Stripe Billing",
+        "source": "https://stripe.com"
+      },
+      {
+        "stat": "150K+",
+        "label": "150K+ users have their best day ever on Stripe.",
+        "source": "https://stripe.com"
+      },
+      {
+        "stat": "more than $40B",
+        "label": "From Black Friday through Cyber Monday 2025, Stripe processed more than $40B for businesses while maintaining a 99.9999% uptime.",
+        "source": "https://stripe.com"
+      }
+    ],
+    "mission": [],
+    "values": [],
+    "ctas": [
+      {
+        "text": "Contact sales",
+        "count": 1
+      },
+      {
+        "text": "Get started",
+        "count": 1
+      },
+      {
+        "text": "Sign up with Google",
+        "count": 1
+      }
+    ],
+    "keyTerms": [
+      {
+        "term": "businesses",
+        "count": 32
+      },
+      {
+        "term": "business",
+        "count": 21
+      },
+      {
+        "term": "global",
+        "count": 20
+      },
+      {
+        "term": "products",
+        "count": 20
+      },
+      {
+        "term": "revenue",
+        "count": 17
+      },
+      {
+        "term": "build",
+        "count": 17
+      },
+      {
+        "term": "tools",
+        "count": 15
+      },
+      {
+        "term": "work",
+        "count": 15
+      },
+      {
+        "term": "financial services",
+        "count": 8
+      },
+      {
+        "term": "payment methods",
+        "count": 8
+      },
+      {
+        "term": "accept payments",
+        "count": 7
+      },
+      {
+        "term": "economic growth",
+        "count": 7
+      },
+      {
+        "term": "financial infrastructure",
+        "count": 6
+      },
+      {
+        "term": "agentic commerce",
+        "count": 5
+      }
+    ],
+    "audiences": [
+      {
+        "phrase": "businesses",
+        "count": 5
+      },
+      {
+        "phrase": "newer businesses",
+        "count": 2
+      },
+      {
+        "phrase": "companies",
+        "count": 2
+      },
+      {
+        "phrase": "everyone",
+        "count": 1
+      },
+      {
+        "phrase": "founders",
+        "count": 1
+      },
+      {
+        "phrase": "platforms",
+        "count": 1
+      }
+    ]
+  },
+  "brandRules": {
+    "rules": [
+      {
+        "text": "Do not use any other color for the wordmark.",
+        "topic": "logo",
+        "source": "https://stripe.com/newsroom/information"
+      }
+    ],
+    "downloads": [
+      {
+        "url": "https://assets.stripeassets.com/fzn2n1nzq965/7q0dJGs6fRS1LRmMpChoAF/87def4edfbb7fd5aef4ab9baf904b2db/Stripe_logo_kit.zip",
+        "label": "Stripe logo kit",
+        "type": "ZIP",
+        "source": "https://stripe.com/newsroom/information"
+      },
+      {
+        "url": "https://assets.stripeassets.com/fzn2n1nzq965/3lP8XFivEIUX19bLRZYqqW/efc69d1651371084eaa9ff404dbcc03c/Powered_by_Stripe-badge.zip",
+        "label": "Powered by Stripe badge",
+        "type": "ZIP",
+        "source": "https://stripe.com/newsroom/information"
+      },
+      {
+        "url": "https://downloads.stripeassets.com/fzn2n1nzq965/1jrj2urvAPvygVzm5pAo1o/7977b2726c54839a03e784280f315a0d/Stripe_Leadership.zip",
+        "label": "Stripe Leadership",
+        "type": "ZIP",
+        "source": "https://stripe.com/newsroom/information"
+      }
+    ],
+    "statedColors": [],
+    "logoFiles": [],
+    "statedColorMatches": []
+  },
+  "imagery": {
+    "hero": "hero.jpg",
+    "display": "display.png"
+  },
+  "sources": {
+    "pages": [
+      {
+        "url": "https://stripe.com",
+        "kind": "home",
+        "via": "input",
+        "title": "Stripe | Financial Infrastructure to Grow Your Revenue",
+        "chars": 7740
+      },
+      {
+        "url": "https://stripe.com/newsroom/information",
+        "kind": "brand",
+        "via": "search",
+        "title": "Stripe Newsroom | Information and assets",
+        "chars": 1467
+      },
+      {
+        "url": "https://stripe.com/about",
+        "kind": "about",
+        "via": "search",
+        "title": "About Us | Stripe",
+        "chars": 2036
+      },
+      {
+        "url": "https://stripe.com/products",
+        "kind": "product",
+        "via": "homepage link",
+        "title": "Stripe Products and Features | Stripe",
+        "chars": 3481
+      },
+      {
+        "url": "https://stripe.com/pricing",
+        "kind": "pricing",
+        "via": "homepage link",
+        "title": "Pricing & Fees",
+        "chars": 20488
+      },
+      {
+        "url": "https://stripe.com/customers",
+        "kind": "customers",
+        "via": "homepage link",
+        "title": "Our customers | Stripe",
+        "chars": 3188
+      },
+      {
+        "url": "https://stripe.com/careers",
+        "kind": "careers",
+        "via": "search",
+        "title": "Stripe Careers | Shape the Future of the Global Economy",
+        "chars": 5646
+      }
+    ],
+    "failed": [],
+    "searches": [
+      {
+        "query": "Stripe about mission values",
+        "results": 10
+      },
+      {
+        "query": "Stripe brand guidelines logo press kit",
+        "results": 9
+      }
+    ],
+    "tinyfish": [
+      {
+        "endpoint": "search",
+        "purpose": "Find the company's about, mission and values pages",
+        "detail": "Stripe about mission values",
+        "ms": 213,
+        "ok": true
+      },
+      {
+        "endpoint": "search",
+        "purpose": "Find the official brand guidelines, logo downloads and press kit",
+        "detail": "Stripe brand guidelines logo press kit",
+        "ms": 302,
+        "ok": true
+      },
+      {
+        "endpoint": "browser",
+        "purpose": "Open a remote browser to render the live site",
+        "detail": "create session",
+        "ms": 459,
+        "ok": true
+      },
+      {
+        "endpoint": "fetch",
+        "purpose": "Read the brand's declared identity: Open Graph tags and schema.org Organization data (official logo, name, social profiles)",
+        "detail": "https://stripe.com/ (head metadata)",
+        "ms": 1409,
+        "ok": true
+      },
+      {
+        "endpoint": "fetch",
+        "purpose": "Build a brand guide: extract tagline, positioning, value propositions, proof points, mission, values, tone of voice and official brand rules",
+        "detail": "https://stripe.com/",
+        "ms": 2921,
+        "ok": true
+      },
+      {
+        "endpoint": "fetch",
+        "purpose": "Build a brand guide: extract tagline, positioning, value propositions, proof points, mission, values, tone of voice and official brand rules",
+        "detail": "6 URLs",
+        "ms": 7319,
+        "ok": true
+      },
+      {
+        "endpoint": "browser",
+        "purpose": "Render the live site and measure computed styles",
+        "detail": "1331 elements scanned on stripe.com",
+        "ms": 33677,
+        "ok": true
+      },
+      {
+        "endpoint": "browser",
+        "purpose": "Render the live site and measure computed styles",
+        "detail": "0 colour swatches read on /newsroom/information",
+        "ms": 4144,
+        "ok": true
+      }
+    ],
+    "browser": {
+      "elementsScanned": 1331,
+      "scannedHeight": 3600,
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      }
+    }
+  },
+  "warnings": []
+}

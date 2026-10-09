@@ -1,0 +1,22 @@
+{
+  "name": "brand-guide-generator",
+  "module": "src/server.ts",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "start": "bun src/server.ts",
+    "dev": "bun --hot src/server.ts",
+    "guide": "bun src/cli.ts",
+    "test": "bun test"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^7.0.2"
+  },
+  "dependencies": {
+    "@tiny-fish/sdk": "^0.8.0",
+    "playwright-core": "^1.64.0"
+  }
+}

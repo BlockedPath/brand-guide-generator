@@ -1,0 +1,843 @@
+{
+  "schema": "brand-guide/v1",
+  "generatedAt": "2026-10-09T05:57:42.682Z",
+  "input": "Duolingo",
+  "company": {
+    "name": "Duolingo",
+    "domain": "duolingo.com",
+    "url": "https://www.duolingo.com/",
+    "description": "Free, fun, and effective courses in languages and more. Learn with quick, science-based lessons personalized to you.",
+    "twitter": "@duolingo",
+    "social": [],
+    "declared": null,
+    "resolvedVia": "search",
+    "searchCandidates": [
+      {
+        "url": "https://www.duolingo.com/log-in",
+        "title": "Log in - Duolingo"
+      },
+      {
+        "url": "https://www.duolingo.com/courses",
+        "title": "Free Language Courses for English Speakers - Duolingo"
+      },
+      {
+        "url": "https://www.duolingo.com/sections",
+        "title": "Duolingo"
+      },
+      {
+        "url": "https://www.duolingo.com/purchase",
+        "title": "Log in to Continue - Duolingo"
+      },
+      {
+        "url": "https://www.duolingo.com/courses/all",
+        "title": "Free Language Courses - Duolingo"
+      }
+    ]
+  },
+  "logo": {
+    "official": null,
+    "primarySource": "site header (Browser)",
+    "kind": "img",
+    "svgFile": null,
+    "pngFile": "logo.png",
+    "sourceUrl": "https://d35aaqx5ub95lt.cloudfront.net/images/splash/f92d5f2f7d56636846861c458c0d0b6c.svg",
+    "alt": "Duolingo",
+    "width": 179,
+    "height": 42,
+    "colors": [],
+    "favicon": "https://d35aaqx5ub95lt.cloudfront.net/favicon.ico",
+    "appleTouchIcon": "https://d35aaqx5ub95lt.cloudfront.net/images/duolingo-touch-icon2.png",
+    "ogImage": "https://www.duolingo.com/images/facebook/duo-08523a2.jpg",
+    "officialFiles": []
+  },
+  "colors": {
+    "primary": {
+      "hex": "#58CC02",
+      "rgb": "rgb(88, 204, 2)",
+      "hsl": "hsl(94, 98%, 40%)",
+      "name": "Vivid Lime",
+      "role": "primary",
+      "usage": 0.062,
+      "evidence": [
+        "fills 1 hero button",
+        "heading text",
+        "15% of text"
+      ],
+      "tokens": [],
+      "onColor": "#111111",
+      "contrast": {
+        "white": 2.09,
+        "black": 10.05
+      }
+    },
+    "secondary": {
+      "hex": "#1CB0F6",
+      "rgb": "rgb(28, 176, 246)",
+      "hsl": "hsl(199, 92%, 54%)",
+      "name": "Vivid Sky",
+      "role": "secondary",
+      "usage": 0.013,
+      "evidence": [
+        "link text (100% of links)",
+        "4% of text"
+      ],
+      "tokens": [],
+      "onColor": "#111111",
+      "contrast": {
+        "white": 2.44,
+        "black": 8.59
+      }
+    },
+    "accents": [
+      {
+        "hex": "#042C60",
+        "rgb": "rgb(4, 44, 96)",
+        "hsl": "hsl(214, 92%, 20%)",
+        "name": "Dark Navy",
+        "role": "accent",
+        "usage": 0.022,
+        "evidence": [
+          "heading text",
+          "6% of text"
+        ],
+        "tokens": [],
+        "onColor": "#ffffff",
+        "contrast": {
+          "white": 13.69,
+          "black": 1.53
+        }
+      }
+    ],
+    "background": {
+      "hex": "#FFFFFF",
+      "rgb": "rgb(255, 255, 255)",
+      "hsl": "hsl(0, 0%, 100%)",
+      "name": "White",
+      "role": "background",
+      "usage": 0.466,
+      "evidence": [
+        "page background",
+        "100% of painted background"
+      ],
+      "tokens": [],
+      "onColor": "#111111",
+      "contrast": {
+        "white": 1,
+        "black": 21
+      }
+    },
+    "surface": null,
+    "text": {
+      "hex": "#777777",
+      "rgb": "rgb(119, 119, 119)",
+      "hsl": "hsl(0, 0%, 47%)",
+      "name": "Grey",
+      "role": "text",
+      "usage": 0.222,
+      "evidence": [
+        "most-used text colour",
+        "63% of text"
+      ],
+      "tokens": [],
+      "onColor": "#ffffff",
+      "contrast": {
+        "white": 4.48,
+        "black": 4.69
+      }
+    },
+    "muted": {
+      "hex": "#4B4B4B",
+      "rgb": "rgb(75, 75, 75)",
+      "hsl": "hsl(0, 0%, 29%)",
+      "name": "Charcoal",
+      "role": "muted",
+      "usage": 0.036,
+      "evidence": [
+        "heading text",
+        "10% of text"
+      ],
+      "tokens": [],
+      "onColor": "#ffffff",
+      "contrast": {
+        "white": 8.72,
+        "black": 2.41
+      }
+    },
+    "border": {
+      "hex": "#D8D8D8",
+      "rgb": "rgb(216, 216, 216)",
+      "hsl": "hsl(0, 0%, 85%)",
+      "name": "Light Grey",
+      "role": "border",
+      "usage": 0.051,
+      "evidence": [
+        "outlines 1 hero button"
+      ],
+      "tokens": [],
+      "onColor": "#111111",
+      "contrast": {
+        "white": 1.43,
+        "black": 14.73
+      }
+    },
+    "neutrals": [
+      {
+        "hex": "#FFFFFF",
+        "rgb": "rgb(255, 255, 255)",
+        "hsl": "hsl(0, 0%, 100%)",
+        "name": "White",
+        "role": "neutral",
+        "usage": 0.466,
+        "evidence": [
+          "100% of painted background"
+        ],
+        "tokens": [],
+        "onColor": "#111111",
+        "contrast": {
+          "white": 1,
+          "black": 21
+        }
+      },
+      {
+        "hex": "#D8D8D8",
+        "rgb": "rgb(216, 216, 216)",
+        "hsl": "hsl(0, 0%, 85%)",
+        "name": "Light Grey",
+        "role": "neutral",
+        "usage": 0.051,
+        "evidence": [
+          "outlines 1 hero button"
+        ],
+        "tokens": [],
+        "onColor": "#111111",
+        "contrast": {
+          "white": 1.43,
+          "black": 14.73
+        }
+      },
+      {
+        "hex": "#AFAEAF",
+        "rgb": "rgb(175, 174, 175)",
+        "hsl": "hsl(300, 1%, 68%)",
+        "name": "Grey",
+        "role": "neutral",
+        "usage": 0.006,
+        "evidence": [],
+        "tokens": [],
+        "onColor": "#111111",
+        "contrast": {
+          "white": 2.21,
+          "black": 9.5
+        }
+      },
+      {
+        "hex": "#777777",
+        "rgb": "rgb(119, 119, 119)",
+        "hsl": "hsl(0, 0%, 47%)",
+        "name": "Grey",
+        "role": "neutral",
+        "usage": 0.222,
+        "evidence": [
+          "63% of text"
+        ],
+        "tokens": [],
+        "onColor": "#ffffff",
+        "contrast": {
+          "white": 4.48,
+          "black": 4.69
+        }
+      },
+      {
+        "hex": "#4B4B4B",
+        "rgb": "rgb(75, 75, 75)",
+        "hsl": "hsl(0, 0%, 29%)",
+        "name": "Charcoal",
+        "role": "neutral",
+        "usage": 0.036,
+        "evidence": [
+          "heading text",
+          "10% of text"
+        ],
+        "tokens": [],
+        "onColor": "#ffffff",
+        "contrast": {
+          "white": 8.72,
+          "black": 2.41
+        }
+      },
+      {
+        "hex": "#3D3D3D",
+        "rgb": "rgb(61, 61, 61)",
+        "hsl": "hsl(0, 0%, 24%)",
+        "name": "Charcoal",
+        "role": "neutral",
+        "usage": 0.004,
+        "evidence": [],
+        "tokens": [],
+        "onColor": "#ffffff",
+        "contrast": {
+          "white": 10.86,
+          "black": 1.93
+        }
+      },
+      {
+        "hex": "#000000",
+        "rgb": "rgb(0, 0, 0)",
+        "hsl": "hsl(0, 0%, 0%)",
+        "name": "Black",
+        "role": "neutral",
+        "usage": 0.017,
+        "evidence": [],
+        "tokens": [],
+        "onColor": "#ffffff",
+        "contrast": {
+          "white": 21,
+          "black": 1
+        }
+      }
+    ],
+    "pairings": [
+      {
+        "foreground": "#777777",
+        "background": "#FFFFFF",
+        "label": "Body text on background",
+        "ratio": 4.48,
+        "level": "AA Large"
+      },
+      {
+        "foreground": "#FFFFFF",
+        "background": "#58CC02",
+        "label": "Button label on primary",
+        "ratio": 2.09,
+        "level": "Fail"
+      },
+      {
+        "foreground": "#58CC02",
+        "background": "#FFFFFF",
+        "label": "Primary on background",
+        "ratio": 2.09,
+        "level": "Fail"
+      },
+      {
+        "foreground": "#4B4B4B",
+        "background": "#FFFFFF",
+        "label": "Muted text on background",
+        "ratio": 8.72,
+        "level": "AAA"
+      }
+    ],
+    "isMonochrome": false,
+    "mode": "light"
+  },
+  "typography": {
+    "families": [
+      {
+        "roles": [
+          "heading",
+          "body"
+        ],
+        "family": "duolingo-sans",
+        "displayName": "Duolingo Sans",
+        "stack": "duolingo-sans, sans-serif",
+        "weights": [
+          500,
+          700
+        ],
+        "source": "Self-hosted",
+        "isCustom": true,
+        "foundry": null,
+        "files": [],
+        "googleFontsUrl": null,
+        "category": "sans-serif",
+        "substitute": "Inter"
+      }
+    ],
+    "scale": [
+      {
+        "role": "h1",
+        "label": "Heading 1",
+        "sample": "The most fun way to learn languages, chess, and more!",
+        "family": "duolingo-sans",
+        "sizePx": 32,
+        "sizeRem": 2,
+        "weight": 700,
+        "lineHeight": null,
+        "letterSpacingEm": null,
+        "transform": null,
+        "color": "#4B4B4B"
+      },
+      {
+        "role": "h2",
+        "label": "Heading 2",
+        "sample": "free. fun. effective.",
+        "family": "feather",
+        "sizePx": 48,
+        "sizeRem": 3,
+        "weight": 700,
+        "lineHeight": null,
+        "letterSpacingEm": null,
+        "transform": null,
+        "color": "#58CC02"
+      },
+      {
+        "role": "body",
+        "label": "Body",
+        "sample": "Learning with Duolingo is fun, and research shows that it works! With quick, bit",
+        "family": "duolingo-sans",
+        "sizePx": 17,
+        "sizeRem": 1.063,
+        "weight": 500,
+        "lineHeight": 1.41,
+        "letterSpacingEm": null,
+        "transform": null,
+        "color": "#777777"
+      },
+      {
+        "role": "button",
+        "label": "Button",
+        "sample": "SITE LANGUAGE: ENGLISH",
+        "family": "duolingo-sans",
+        "sizePx": 15,
+        "sizeRem": 0.938,
+        "weight": 700,
+        "lineHeight": 1.15,
+        "letterSpacingEm": 0.05,
+        "transform": "uppercase",
+        "color": "#AFAEAF"
+      },
+      {
+        "role": "nav",
+        "label": "Navigation",
+        "sample": "GET STARTED",
+        "family": "duolingo-sans",
+        "sizePx": 15,
+        "sizeRem": 0.938,
+        "weight": 700,
+        "lineHeight": null,
+        "letterSpacingEm": 0.05,
+        "transform": "uppercase",
+        "color": "#FFFFFF"
+      }
+    ],
+    "baseSizePx": 17
+  },
+  "components": {
+    "primaryButton": {
+      "label": "GET STARTED",
+      "background": "#58CC02",
+      "color": "#FFFFFF",
+      "borderColor": null,
+      "borderWidth": 0,
+      "radius": "12px",
+      "paddingX": 16,
+      "paddingY": 0,
+      "height": 50,
+      "fontFamily": "duolingo-sans",
+      "fontSize": 15,
+      "fontWeight": 700,
+      "textTransform": "uppercase",
+      "letterSpacing": "0.8px"
+    },
+    "secondaryButton": {
+      "label": "I ALREADY HAVE AN ACCOUNT",
+      "background": null,
+      "color": "#1CB0F6",
+      "borderColor": "#E5E5E5",
+      "borderWidth": 2,
+      "radius": "12px",
+      "paddingX": 16,
+      "paddingY": 0,
+      "height": 50,
+      "fontFamily": "duolingo-sans",
+      "fontSize": 15,
+      "fontWeight": 700,
+      "textTransform": "uppercase",
+      "letterSpacing": "0.8px"
+    },
+    "radii": [
+      "12px"
+    ]
+  },
+  "voice": {
+    "summary": "Energetic, playful and company-led — funny, casual, respectful and enthusiastic in tone.",
+    "dimensions": [
+      {
+        "axis": "Funny ↔ Serious",
+        "left": "Funny",
+        "right": "Serious",
+        "value": 33,
+        "basis": "20% exclamations, 7% questions, 0% with emoji"
+      },
+      {
+        "axis": "Formal ↔ Casual",
+        "left": "Formal",
+        "right": "Casual",
+        "value": 70,
+        "basis": "28% use contractions, reading ease 55, 15% long words"
+      },
+      {
+        "axis": "Respectful ↔ Irreverent",
+        "left": "Respectful",
+        "right": "Irreverent",
+        "value": 40,
+        "basis": "slang/emoji density, sentence case headlines"
+      },
+      {
+        "axis": "Enthusiastic ↔ Matter-of-fact",
+        "left": "Enthusiastic",
+        "right": "Matter-of-fact",
+        "value": 3,
+        "basis": "0.9 superlatives per 100 words, 8% cite numbers"
+      }
+    ],
+    "traits": [
+      {
+        "name": "Energetic",
+        "description": "Upbeat, high-intensity language (0.9 superlatives per 100 words).",
+        "strength": 1.3,
+        "evidence": [
+          "We use a combination of research-backed teaching methods and delightful content to create courses that effectively teach reading, writing, listening, and speaking skills!",
+          "Combining the best of AI and language science, lessons are tailored to help you learn at just the right level and pace."
+        ]
+      },
+      {
+        "name": "Playful",
+        "description": "Uses humour, exclamations or emoji to keep things light.",
+        "strength": 1.12,
+        "evidence": [
+          "Learning with Duolingo is fun, and research shows that it works!",
+          "We use a combination of research-backed teaching methods and delightful content to create courses that effectively teach reading, writing, listening, and speaking skills!"
+        ]
+      },
+      {
+        "name": "Company-led",
+        "description": "Speaks as \"we\" — 68% of sentences are about the company.",
+        "strength": 1.09,
+        "evidence": [
+          "We use a combination of research-backed teaching methods and delightful content to create courses that effectively teach reading, writing, listening, and speaking skills!",
+          "We make it easy to form a habit of language learning with game-like features, fun challenges, and reminders from our friendly mascot, Duo the owl."
+        ]
+      },
+      {
+        "name": "Purpose-driven",
+        "description": "Frames the brand around a bigger cause or community.",
+        "strength": 0.67,
+        "evidence": [
+          "They are core beliefs that support our promise of high-quality education for all and nurture the environment of innovation, excellence, and lifelong learning that we are quite proud of!",
+          "After all, our mission is to develop the best education in the world and to make it universally available."
+        ]
+      },
+      {
+        "name": "Action-oriented",
+        "description": "27% of headlines open with a verb.",
+        "strength": 0.55,
+        "evidence": [
+          "stay motivated",
+          "learn anytime, anywhere"
+        ]
+      }
+    ],
+    "dos": [
+      "Keep headlines to about 3 words (site median).",
+      "Write headlines in sentence case.",
+      "Lead headlines with a strong verb (Build, Get, Start…).",
+      "Speak as \"we\" when describing what the company does.",
+      "Use contractions (you're, it's) to sound human.",
+      "Aim for a grade 10 reading level (Flesch 55)."
+    ],
+    "donts": [
+      "Don't end headlines with a full stop.",
+      "Avoid technical jargon; keep language plain.",
+      "Don't use emoji in brand copy."
+    ],
+    "metrics": {
+      "sentences": 60,
+      "headlines": 11,
+      "avgSentenceWords": 16.6,
+      "medianHeadlineWords": 3,
+      "readingEase": 55,
+      "gradeLevel": 9.7,
+      "youRate": 0.067,
+      "weRate": 0.683,
+      "contractionRate": 0.283,
+      "exclamationRate": 0.197,
+      "questionRate": 0.07,
+      "imperativeHeadlineRate": 0.273,
+      "headlinePeriodRate": 0.091,
+      "headlineCase": "sentence",
+      "jargonPer100": 0.5,
+      "superlativePer100": 0.9,
+      "numberRate": 0.083,
+      "emojiRate": 0
+    },
+    "examples": {
+      "headlines": [
+        "The most fun way to learn languages, chess, and more!",
+        "free. fun. effective.",
+        "backed by science",
+        "stay motivated",
+        "personalized learning",
+        "learn anytime, anywhere"
+      ],
+      "sentences": [
+        "Learning with Duolingo is fun, and research shows that it works!",
+        "With quick, bite-sized lessons, you’ll earn points and unlock new levels while gaining real-world communication skills.",
+        "We use a combination of research-backed teaching methods and delightful content to create courses that effectively teach reading, writing, listening, and speaking skills!",
+        "We make it easy to form a habit of language learning with game-like features, fun challenges, and reminders from our friendly mascot, Duo the owl.",
+        "Combining the best of AI and language science, lessons are tailored to help you learn at just the right level and pace.",
+        "How Duolingo works: 14 years of big learnings in one little handbook."
+      ]
+    }
+  },
+  "messaging": {
+    "tagline": {
+      "text": "The most fun way to learn languages, chess, and more!",
+      "source": "https://www.duolingo.com/"
+    },
+    "subheadline": {
+      "text": "Learning with Duolingo is fun, and research shows that it works! With quick, bite-sized lessons, you’ll earn points and unlock new levels while gaining real-world communication skills.",
+      "source": "https://www.duolingo.com/"
+    },
+    "positioning": {
+      "text": "Free, fun, and effective courses in languages and more. Learn with quick, science-based lessons personalized to you.",
+      "source": "https://www.duolingo.com/"
+    },
+    "boilerplate": {
+      "text": "Learning with Duolingo is fun, and research shows that it works!",
+      "source": "https://www.duolingo.com/"
+    },
+    "slogans": [],
+    "valueProps": [
+      {
+        "headline": "free. fun. effective.",
+        "support": "Learning with Duolingo is fun, and research shows that it works!",
+        "source": "https://www.duolingo.com/"
+      },
+      {
+        "headline": "backed by science",
+        "support": "We use a combination of research-backed teaching methods and delightful content to create courses that effectively teach reading, writing, listening, and speaking skills!",
+        "source": "https://www.duolingo.com/"
+      },
+      {
+        "headline": "stay motivated",
+        "support": "We make it easy to form a habit of language learning with game-like features, fun challenges, and reminders from our friendly mascot, Duo the owl.",
+        "source": "https://www.duolingo.com/"
+      },
+      {
+        "headline": "personalized learning",
+        "support": "Combining the best of AI and language science, lessons are tailored to help you learn at just the right level and pace.",
+        "source": "https://www.duolingo.com/"
+      },
+      {
+        "headline": "duolingo english test",
+        "support": "Our convenient, fast, and affordable English test integrates the latest assessment science and AI — empowering anyone to accurately test their English where and when they’re at their best.",
+        "source": "https://www.duolingo.com/"
+      }
+    ],
+    "proofPoints": [],
+    "mission": [
+      {
+        "text": "After all, our mission is to develop the best education in the world and to make it universally available.",
+        "source": "https://blog.duolingo.com/operating-principles/"
+      },
+      {
+        "text": "They’re the fabric of our mission and the heart of who we are as people.",
+        "source": "https://blog.duolingo.com/operating-principles/"
+      }
+    ],
+    "values": [],
+    "ctas": [
+      {
+        "text": "GET STARTED",
+        "count": 1
+      },
+      {
+        "text": "Download on the App Store",
+        "count": 1
+      },
+      {
+        "text": "Get it on Google Play",
+        "count": 1
+      }
+    ],
+    "keyTerms": [
+      {
+        "term": "learning",
+        "count": 8
+      },
+      {
+        "term": "handbook",
+        "count": 8
+      },
+      {
+        "term": "fun",
+        "count": 7
+      },
+      {
+        "term": "principles",
+        "count": 7
+      },
+      {
+        "term": "test",
+        "count": 6
+      },
+      {
+        "term": "best",
+        "count": 6
+      },
+      {
+        "term": "language",
+        "count": 5
+      },
+      {
+        "term": "works",
+        "count": 5
+      },
+      {
+        "term": "education",
+        "count": 5
+      },
+      {
+        "term": "science",
+        "count": 4
+      },
+      {
+        "term": "culture",
+        "count": 4
+      },
+      {
+        "term": "learners",
+        "count": 4
+      },
+      {
+        "term": "product",
+        "count": 4
+      },
+      {
+        "term": "always",
+        "count": 4
+      }
+    ],
+    "audiences": []
+  },
+  "brandRules": {
+    "rules": [],
+    "downloads": [],
+    "statedColors": [],
+    "logoFiles": [],
+    "statedColorMatches": []
+  },
+  "imagery": {
+    "hero": "hero.jpg",
+    "display": "display.png"
+  },
+  "sources": {
+    "pages": [
+      {
+        "url": "https://www.duolingo.com/",
+        "kind": "home",
+        "via": "browser fallback",
+        "title": "Learn a language for free",
+        "chars": 1052
+      },
+      {
+        "url": "https://blog.duolingo.com/handbook/",
+        "kind": "about",
+        "via": "search",
+        "title": "Inside the Duolingo Company Handbook",
+        "chars": 2177
+      },
+      {
+        "url": "https://blog.duolingo.com/operating-principles/",
+        "kind": "about",
+        "via": "search",
+        "title": "12 operating principles that shape our innovative culture",
+        "chars": 4011
+      }
+    ],
+    "failed": [],
+    "searches": [
+      {
+        "query": "Duolingo official website",
+        "results": 5
+      },
+      {
+        "query": "Duolingo brand guidelines logo press kit",
+        "results": 9
+      },
+      {
+        "query": "Duolingo about mission values",
+        "results": 10
+      }
+    ],
+    "tinyfish": [
+      {
+        "endpoint": "search",
+        "purpose": "Find the official homepage of the company or brand \"Duolingo\"",
+        "detail": "Duolingo official website",
+        "ms": 458,
+        "ok": true
+      },
+      {
+        "endpoint": "search",
+        "purpose": "Find the official brand guidelines, logo downloads and press kit",
+        "detail": "Duolingo brand guidelines logo press kit",
+        "ms": 137,
+        "ok": true
+      },
+      {
+        "endpoint": "search",
+        "purpose": "Find the company's about, mission and values pages",
+        "detail": "Duolingo about mission values",
+        "ms": 202,
+        "ok": true
+      },
+      {
+        "endpoint": "browser",
+        "purpose": "Open a remote browser to render the live site",
+        "detail": "create session",
+        "ms": 424,
+        "ok": true
+      },
+      {
+        "endpoint": "fetch",
+        "purpose": "Read the brand's declared identity: Open Graph tags and schema.org Organization data (official logo, name, social profiles)",
+        "detail": "https://www.duolingo.com/ (head metadata)",
+        "ms": 7049,
+        "ok": true
+      },
+      {
+        "endpoint": "fetch",
+        "purpose": "Build a brand guide: extract tagline, positioning, value propositions, proof points, mission, values, tone of voice and official brand rules",
+        "detail": "https://www.duolingo.com/",
+        "ms": 10909,
+        "ok": true
+      },
+      {
+        "endpoint": "browser",
+        "purpose": "Render the live site and measure computed styles",
+        "detail": "1890 elements scanned on www.duolingo.com",
+        "ms": 31932,
+        "ok": true
+      },
+      {
+        "endpoint": "fetch",
+        "purpose": "Build a brand guide: extract tagline, positioning, value propositions, proof points, mission, values, tone of voice and official brand rules",
+        "detail": "2 URLs",
+        "ms": 753,
+        "ok": true
+      }
+    ],
+    "browser": {
+      "elementsScanned": 1890,
+      "scannedHeight": 3600,
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      }
+    }
+  },
+  "warnings": [
+    "Fetch returned very little text for the homepage (a JavaScript-rendered site), so its copy was read from the Browser-rendered page."
+  ]
+}

@@ -1,0 +1,27 @@
+/* Airbnb brand tokens — extracted from https://www.airbnb.com/ on 2026-10-09 */
+:root {
+  --brand-primary: #ff385c; /* Vivid Rose */
+  --brand-background: #ffffff; /* White */
+  --brand-surface: #dddddd; /* Light Grey */
+  --brand-text: #6c6c6c; /* Charcoal */
+  --brand-muted: #282828; /* Near Black */
+  --brand-neutral-100: #ffffff; /* White */
+  --brand-neutral-200: #dddddd; /* Light Grey */
+  --brand-neutral-300: #c1c1c1; /* Light Grey */
+  --brand-neutral-400: #6c6c6c; /* Charcoal */
+  --brand-neutral-500: #282828; /* Near Black */
+  --brand-neutral-600: #000000; /* Black */
+  --font-heading: "Airbnb Cereal VF", Circular, -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", sans-serif;
+  --font-body: "Airbnb Cereal VF", Circular, -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", sans-serif;
+  --text-h1-size: 1.75rem;
+  --text-h1-weight: 700;
+  --text-h1-line-height: 1.43;
+  --text-h2-size: 0.875rem;
+  --text-h2-weight: 400;
+  --text-h2-line-height: 1.43;
+  --text-button-size: 0.875rem;
+  --text-button-weight: 400;
+  --text-nav-size: 0.875rem;
+  --text-nav-weight: 400;
+  --text-nav-line-height: 1.43;
+}
